@@ -1,0 +1,5 @@
+E:\zzzzzzzzzzz\program\app\WarningEngine\WarningEngine\bin\Debug\Ndtech.WarningEngine.dll
+E:\zzzzzzzzzzz\program\app\WarningEngine\WarningEngine\bin\Debug\Ndtech.WarningEngine.pdb
+E:\zzzzzzzzzzz\program\app\WarningEngine\WarningEngine\obj\Debug\WarningEngine.csprojResolveAssemblyReference.cache
+E:\zzzzzzzzzzz\program\app\WarningEngine\WarningEngine\obj\Debug\Ndtech.WarningEngine.dll
+E:\zzzzzzzzzzz\program\app\WarningEngine\WarningEngine\obj\Debug\Ndtech.WarningEngine.pdb

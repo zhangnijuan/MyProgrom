@@ -1,0 +1,178 @@
+2015-01-20 09:27:10.2217|INFO|ProtalHostServer|info start...|
+2015-01-20 09:27:10.5947|ERROR|ProtalHostServer|error start...|
+2015-01-20 09:27:58.8735|INFO|ProtalHostServer|info start...|
+2015-01-20 09:27:58.8825|ERROR|ProtalHostServer|error start...|
+2015-01-20 09:29:52.8650|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+operator does not exist: character varying = integer
+Severity: ERROR
+Code: 42883
+Hint: No operator matches the given name and argument type(s). You might need to add explicit type casts.
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 97
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 09:30:14.9543|INFO|ProtalHostServer|info start...|
+2015-01-20 09:30:14.9613|ERROR|ProtalHostServer|error start...|
+2015-01-20 09:36:35.3450|INFO|ProtalHostServer|info start...|
+2015-01-20 09:36:35.3540|ERROR|ProtalHostServer|error start...|
+2015-01-20 09:37:54.3515|INFO|ProtalHostServer|info start...|
+2015-01-20 09:37:54.3585|ERROR|ProtalHostServer|error start...|
+2015-01-20 09:40:10.7784|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Data.DataTable.NewRowFromBuilder(DataRowBuilder builder)
+   在 System.Data.DataTable.NewRow(Int32 record)
+   在 System.Data.DataTable.NewRow()
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.GetDataTable(IFile file) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 169
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 48
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 09:40:10.8584|ERROR|EndpointHandlerBase|Error occured while Processing Request: 正在中止线程。|System.Threading.ThreadAbortException: 正在中止线程。
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Process(IRequestContext requestContext, Object instance, Object request)
+   在 ServiceStack.ServiceHost.NServiceExec`1.Execute(IRequestContext requestContext, Object instance, Object request, String requestName)
+   在 ServiceStack.ServiceHost.NServiceRequestExec`2.Execute(IRequestContext requestContext, Object instance, Object request)
+   在 ServiceStack.ServiceHost.ServiceController.<>c__DisplayClass15.<>c__DisplayClass17.<RegisterNServiceExecutor>b__14(IRequestContext reqCtx, Object req)
+   在 ServiceStack.ServiceHost.ServiceController.ManagedServiceExec(ServiceExecFn serviceExec, Object service, IRequestContext requestContext, Object dto)
+   在 ServiceStack.ServiceHost.ServiceController.<>c__DisplayClass15.<RegisterNServiceExecutor>b__13(IRequestContext requestContext, Object dto)
+   在 ServiceStack.ServiceHost.ServiceController.Execute(Object request, IRequestContext requestContext)
+   在 ServiceStack.WebHost.Endpoints.EndpointHost.ExecuteService(Object request, EndpointAttributes endpointAttributes, IHttpRequest httpReq, IHttpResponse httpRes)
+   在 ServiceStack.WebHost.Endpoints.Support.EndpointHandlerBase.ExecuteService(Object request, EndpointAttributes endpointAttributes, IHttpRequest httpReq, IHttpResponse httpRes)
+   在 ServiceStack.WebHost.Endpoints.RestHandler.GetResponse(IHttpRequest httpReq, IHttpResponse httpRes, Object request)
+   在 ServiceStack.WebHost.Endpoints.RestHandler.ProcessRequest(IHttpRequest httpReq, IHttpResponse httpRes, String operationName)
+2015-01-20 09:41:27.1357|INFO|ProtalHostServer|info start...|
+2015-01-20 09:41:27.1427|ERROR|ProtalHostServer|error start...|
+2015-01-20 09:44:01.4275|INFO|ProtalHostServer|info start...|
+2015-01-20 09:44:01.4385|ERROR|ProtalHostServer|error start...|
+2015-01-20 09:53:34.1003|INFO|ProtalHostServer|info start...|
+2015-01-20 09:53:34.1073|ERROR|ProtalHostServer|error start...|
+2015-01-20 09:57:33.3690|INFO|ProtalHostServer|info start...|
+2015-01-20 09:57:33.3780|ERROR|ProtalHostServer|error start...|
+2015-01-20 09:58:30.1952|INFO|ProtalHostServer|info start...|
+2015-01-20 09:58:30.1952|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:01:00.4178|INFO|ProtalHostServer|info start...|
+2015-01-20 10:01:00.4248|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:04:53.3482|INFO|ProtalHostServer|info start...|
+2015-01-20 10:04:53.3482|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:04:54.7792|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.FormatException: 该字符串未被识别为有效的 DateTime。有一个从索引 0 处开始的未知字。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ToDateTime(Object value)
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 83
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 10:05:11.8632|INFO|ProtalHostServer|info start...|
+2015-01-20 10:05:11.8702|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:07:13.6102|INFO|ProtalHostServer|info start...|
+2015-01-20 10:07:13.6102|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:08:08.8753|INFO|ProtalHostServer|info start...|
+2015-01-20 10:08:08.8823|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:08:49.9357|INFO|ProtalHostServer|info start...|
+2015-01-20 10:08:49.9417|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:08:51.4288|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ToDateTime(Object value)
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 83
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 10:09:23.0646|INFO|ProtalHostServer|info start...|
+2015-01-20 10:09:23.0736|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:09:24.6667|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ToDateTime(Object value)
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 83
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 10:09:43.4447|INFO|ProtalHostServer|info start...|
+2015-01-20 10:09:43.4517|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:10:20.1798|INFO|ProtalHostServer|info start...|
+2015-01-20 10:10:20.1858|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:10:53.7848|INFO|ProtalHostServer|info start...|
+2015-01-20 10:10:53.7918|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:10:55.2729|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.FormatException: 该字符串未被识别为有效的 DateTime。有一个从索引 0 处开始的未知字。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ToDateTime(Object value)
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 83
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 10:12:34.7445|INFO|ProtalHostServer|info start...|
+2015-01-20 10:12:34.7515|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:13:02.0831|INFO|ProtalHostServer|info start...|
+2015-01-20 10:13:02.0831|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:13:03.5872|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ToDateTime(Object value)
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 83
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 10:13:22.1293|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ToDateTime(Object value)
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 83
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 10:13:23.6443|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.Convert.ToDateTime(String value, IFormatProvider provider)
+   在 System.String.System.IConvertible.ToDateTime(IFormatProvider provider)
+   在 System.Convert.ToDateTime(Object value)
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 83
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 10:25:09.4187|INFO|ProtalHostServer|info start...|
+2015-01-20 10:25:09.4257|ERROR|ProtalHostServer|error start...|
+2015-01-20 10:48:18.0741|INFO|ProtalHostServer|info start...|
+2015-01-20 10:48:18.0801|ERROR|ProtalHostServer|error start...|
+2015-01-20 13:03:32.3192|INFO|ProtalHostServer|info start...|
+2015-01-20 13:03:32.3532|ERROR|ProtalHostServer|error start...|
+2015-01-20 13:05:06.7376|INFO|ProtalHostServer|info start...|
+2015-01-20 13:05:06.7436|ERROR|ProtalHostServer|error start...|
+2015-01-20 13:05:28.2749|INFO|ProtalHostServer|info start...|
+2015-01-20 13:05:28.3069|ERROR|ProtalHostServer|error start...|
+2015-01-20 13:06:36.2568|INFO|ProtalHostServer|info start...|
+2015-01-20 13:06:36.2568|ERROR|ProtalHostServer|error start...|
+2015-01-20 13:09:13.6318|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.Threading.ThreadAbortException: 正在中止线程。
+   在 ServiceStack.WebHost.Endpoints.Extensions.HttpResponseWrapper.End()
+   在 Ndtech.PortalService.service.management.mySale.ImportPurchasePlanService.Post(ImportPurchasePlanRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\mySale\ImportPurchasePlanService.cs:行号 132
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-20 13:09:13.6808|ERROR|EndpointHandlerBase|Error occured while Processing Request: 正在中止线程。|System.Threading.ThreadAbortException: 正在中止线程。
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Process(IRequestContext requestContext, Object instance, Object request)
+   在 ServiceStack.ServiceHost.NServiceExec`1.Execute(IRequestContext requestContext, Object instance, Object request, String requestName)
+   在 ServiceStack.ServiceHost.NServiceRequestExec`2.Execute(IRequestContext requestContext, Object instance, Object request)
+   在 ServiceStack.ServiceHost.ServiceController.<>c__DisplayClass15.<>c__DisplayClass17.<RegisterNServiceExecutor>b__14(IRequestContext reqCtx, Object req)
+   在 ServiceStack.ServiceHost.ServiceController.ManagedServiceExec(ServiceExecFn serviceExec, Object service, IRequestContext requestContext, Object dto)
+   在 ServiceStack.ServiceHost.ServiceController.<>c__DisplayClass15.<RegisterNServiceExecutor>b__13(IRequestContext requestContext, Object dto)
+   在 ServiceStack.ServiceHost.ServiceController.Execute(Object request, IRequestContext requestContext)
+   在 ServiceStack.WebHost.Endpoints.EndpointHost.ExecuteService(Object request, EndpointAttributes endpointAttributes, IHttpRequest httpReq, IHttpResponse httpRes)
+   在 ServiceStack.WebHost.Endpoints.Support.EndpointHandlerBase.ExecuteService(Object request, EndpointAttributes endpointAttributes, IHttpRequest httpReq, IHttpResponse httpRes)
+   在 ServiceStack.WebHost.Endpoints.RestHandler.GetResponse(IHttpRequest httpReq, IHttpResponse httpRes, Object request)
+   在 ServiceStack.WebHost.Endpoints.RestHandler.ProcessRequest(IHttpRequest httpReq, IHttpResponse httpRes, String operationName)
+2015-01-20 13:09:47.5897|INFO|ProtalHostServer|info start...|
+2015-01-20 13:09:47.5967|ERROR|ProtalHostServer|error start...|
+2015-01-20 13:10:22.8947|INFO|ProtalHostServer|info start...|
+2015-01-20 13:10:22.8947|ERROR|ProtalHostServer|error start...|
+2015-01-20 13:11:10.0254|INFO|ProtalHostServer|info start...|
+2015-01-20 13:11:10.0254|ERROR|ProtalHostServer|error start...|

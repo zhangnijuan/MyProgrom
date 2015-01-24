@@ -1,0 +1,14 @@
+D:\work\program\app\Procurement\MongoDB.Mapper\bin\Debug\MongoDB.Mapper.dll.config
+D:\work\program\app\Procurement\MongoDB.Mapper\bin\Debug\MongoDB.Mapper.dll
+D:\work\program\app\Procurement\MongoDB.Mapper\bin\Debug\MongoDB.Mapper.pdb
+D:\work\program\app\Procurement\MongoDB.Mapper\bin\Debug\MongoDB.Bson.dll
+D:\work\program\app\Procurement\MongoDB.Mapper\bin\Debug\MongoDB.Driver.dll
+D:\work\program\app\Procurement\MongoDB.Mapper\obj\Debug\MongoDB.Mapper.dll
+D:\work\program\app\Procurement\MongoDB.Mapper\obj\Debug\MongoDB.Mapper.pdb
+D:\work\program\app\Procurement\MongoDB.Mapper\obj\Debug\EtoolTech.MongoDB.Mapper.csprojResolveAssemblyReference.cache
+E:\zzzzzzzzzzz\program\app\MongoDB.Mapper\bin\Debug\MongoDB.Mapper.dll.config
+E:\zzzzzzzzzzz\program\app\MongoDB.Mapper\bin\Debug\MongoDB.Mapper.dll
+E:\zzzzzzzzzzz\program\app\MongoDB.Mapper\bin\Debug\MongoDB.Mapper.pdb
+E:\zzzzzzzzzzz\program\app\MongoDB.Mapper\obj\Debug\EtoolTech.MongoDB.Mapper.csprojResolveAssemblyReference.cache
+E:\zzzzzzzzzzz\program\app\MongoDB.Mapper\obj\Debug\MongoDB.Mapper.dll
+E:\zzzzzzzzzzz\program\app\MongoDB.Mapper\obj\Debug\MongoDB.Mapper.pdb

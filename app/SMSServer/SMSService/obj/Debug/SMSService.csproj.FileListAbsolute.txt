@@ -1,0 +1,15 @@
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\Ndtech.SMSService.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\Ndtech.SMSService.pdb
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\Ndtech.PortalModel.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\ServiceStack.Common.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\ServiceStack.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\ServiceStack.Interfaces.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\ServiceStack.Logging.NLog.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\ServiceStack.ServiceInterface.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\ServiceStack.Text.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\NLog.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\ServiceStack.OrmLite.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\bin\Debug\Ndtech.PortalModel.pdb
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\obj\Debug\SMSService.csprojResolveAssemblyReference.cache
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\obj\Debug\Ndtech.SMSService.dll
+E:\zzzzzzzzzzz\program\app\SMSServer\SMSService\obj\Debug\Ndtech.SMSService.pdb

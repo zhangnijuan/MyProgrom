@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A2E051D-440C-4EC9-B63A-3CB9469DDFD9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ndtech.PortalService</RootNamespace>
+    <AssemblyName>Ndtech.PortalService</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Security">
+      <HintPath>..\lib\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Ndtech.WarningEngine">
+      <HintPath>..\WarningEngine\WarningEngine\bin\Debug\Ndtech.WarningEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\lib\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\lib\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack">
+      <HintPath>..\lib\ServiceStack.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\lib\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\lib\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite">
+      <HintPath>..\lib\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.PostgreSQL, Version=3.9.60.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\donet\ServivceStack\ServiceStack.OrmLite-3\ServiceStack.OrmLite-3\src\ServiceStack.OrmLite.PostgreSQL\bin\Debug\ServiceStack.OrmLite.PostgreSQL.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Plugins.ProtoBuf">
+      <HintPath>E:\donet\ServivceStack\ServiceStack-3\ServiceStack-3\src\ServiceStack.Plugins.ProtoBuf\bin\Debug\ServiceStack.Plugins.ProtoBuf.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.ServiceInterface">
+      <HintPath>..\lib\ServiceStack.ServiceInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\lib\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attribute\NdtechAuthenticateAttribute.cs" />
+    <Compile Include="DataModel\EnterpriseDefAddress.cs" />
+    <Compile Include="DataModel\EnterpriseItemsCertification.cs" />
+    <Compile Include="DataModel\EnterpriseItemsCertificationDetail.cs" />
+    <Compile Include="DataModel\NdtechItemCertification.cs" />
+    <Compile Include="DataModel\NdtechItemPrice.cs" />
+    <Compile Include="DataModel\PurEvaluation.cs" />
+    <Compile Include="DataModel\PurEvaluationDetail.cs" />
+    <Compile Include="DataModel\PurPlan.cs" />
+    <Compile Include="DataModel\PurPlanDetail.cs" />
+    <Compile Include="DataModel\StateLog.cs" />
+    <Compile Include="DataModel\SubscribeFilterDetail.cs" />
+    <Compile Include="DataModel\UdocProject.cs" />
+    <Compile Include="DataModel\UdocProOptions.cs" />
+    <Compile Include="Extensions\SQLInjectionFilter.cs" />
+    <Compile Include="service\management\corpManagement\CompanyStateService.cs" />
+    <Compile Include="service\management\corpManagement\CreatePurEvaluationService.cs" />
+    <Compile Include="service\management\corpManagement\GetCertificationByIDService.cs" />
+    <Compile Include="service\management\corpManagement\GetCertificationService.cs" />
+    <Compile Include="service\management\corpManagement\GetEvaluationByIDService.cs" />
+    <Compile Include="service\management\corpManagement\GetEvaluationByTypeService.cs" />
+    <Compile Include="service\management\corpManagement\GetItemCertificationByDIDService.cs" />
+    <Compile Include="service\management\corpManagement\GetItemCertificationByIDService.cs" />
+    <Compile Include="service\management\corpManagement\GetItemCertificationCodeService.cs" />
+    <Compile Include="service\management\corpManagement\GetItemCertificationService.cs" />
+    <Compile Include="service\management\corpManagement\GetItemPriceTrendService.cs" />
+    <Compile Include="service\management\corpManagement\GetOldCompItemByIDService.cs" />
+    <Compile Include="service\management\corpManagement\GetOldEnterprisesPriceService.cs" />
+    <Compile Include="service\management\corpManagement\GetStateLogService.cs" />
+    <Compile Include="service\management\corpManagement\ModifyCustomerStateService.cs" />
+    <Compile Include="service\management\corpManagement\ModifyDealSupplierStateService.cs" />
+    <Compile Include="service\management\corpManagement\SaveItemCertificationService.cs" />
+    <Compile Include="service\management\corpManagement\SearchCustomerService.cs" />
+    <Compile Include="service\management\corpManagement\SearchDealSupplierService.cs" />
+    <Compile Include="service\management\corpManagement\SearchPurEvaluationService.cs" />
+    <Compile Include="service\management\corp\CheckCompNameService.cs" />
+    <Compile Include="service\management\corpManagement\CompamyIntroSercice.cs" />
+    <Compile Include="service\management\corp\CompanyCertificationService.cs" />
+    <Compile Include="service\management\corpManagement\CompanyPromoteService.cs" />
+    <Compile Include="service\management\corp\GetAllCategoryService.cs" />
+    <Compile Include="service\management\myPurchase\GetLowerEmployeeListID.cs" />
+    <Compile Include="service\management\myPurchase\GetPurOrderHistoryService.cs" />
+    <Compile Include="service\management\mySale\EidtPurchasePlanByIdService.cs" />
+    <Compile Include="service\management\mySale\ImportPurchasePlanService.cs" />
+    <Compile Include="service\management\mySale\SavePurchasePlanService.cs" />
+    <Compile Include="service\management\mySale\SearchPurchasePlanService.cs" />
+    <Compile Include="service\management\Subscription\CreateSubscriptionService.cs" />
+    <Compile Include="service\management\Subscription\DeleteSubscriptionService.cs" />
+    <Compile Include="service\management\Subscription\SearchSubscriptionService.cs" />
+    <Compile Include="service\management\Subscription\SubscriptionListService.cs" />
+    <Compile Include="service\platform\enquiry\GetPlanDetailByIDService.cs" />
+    <Compile Include="service\platform\enquiry\GetSalQuotationStateService.cs" />
+    <Compile Include="service\platform\order\CreatePurOrderByPurPlanService.cs" />
+    <Compile Include="service\platform\order\CreatePurOrderByShoppingCartService.cs" />
+    <Compile Include="service\platform\order\CreatePurOrderService.cs" />
+    <Compile Include="service\platform\order\CreatePurShoppingCartService.cs" />
+    <Compile Include="service\management\corpManagement\DeleteERPAddressService.cs" />
+    <Compile Include="service\platform\order\DeletePurShoppingCartItemService.cs" />
+    <Compile Include="service\management\corp\EditCompanyInfoService.cs" />
+    <Compile Include="service\management\corpManagement\GetCompanyRecordByIdService.cs" />
+    <Compile Include="service\management\corpManagement\GetCompItemByIDService.cs" />
+    <Compile Include="service\management\corpManagement\GetEnterpriseCategoryService.cs" />
+    <Compile Include="service\management\corpManagement\GetERPAddressService.cs" />
+    <Compile Include="service\management\myPurchase\GetInquiryByIDService.cs" />
+    <Compile Include="service\management\myPurchase\GetPurInquiryAmountService.cs" />
+    <Compile Include="service\management\myPurchase\GetPurInquryStateCountService.cs" />
+    <Compile Include="service\platform\order\GetPurorderByIDService.cs" />
+    <Compile Include="service\management\myPurchase\GetPurOrderStateCntService.cs" />
+    <Compile Include="service\management\myPurchase\GetPurSelectService.cs" />
+    <Compile Include="service\platform\order\GetPurShoppingCartByEIDService.cs" />
+    <Compile Include="service\management\mySale\GetQuotationByIDService.cs" />
+    <Compile Include="service\management\myPurchase\GetQuotationByInquiryDIDService.cs" />
+    <Compile Include="service\management\mySale\GetSalQuotationStateCntService.cs" />
+    <Compile Include="service\login\LoginService.cs" />
+    <Compile Include="service\management\corpManagement\ModifyEnterpriseItemService.cs" />
+    <Compile Include="service\management\corp\GetCompanyInfoService.cs" />
+    <Compile Include="service\management\corpManagement\GetItemAttributeService.cs" />
+    <Compile Include="service\management\corp\GetItemCategoryService.cs" />
+    <Compile Include="service\platform\supply\SearchEnshrineCompanyService.cs" />
+    <Compile Include="service\platform\supply\SearchTotalCntService.cs" />
+    <Compile Include="service\professional\employee\CheckSysCodeService.cs" />
+    <Compile Include="service\professional\employee\GetAllEmployeeService.cs" />
+    <Compile Include="service\management\corpManagement\GetItemService.cs" />
+    <Compile Include="service\professional\employee\GetEmployeeById.cs" />
+    <Compile Include="service\management\myPurchase\GetPublishCountByCompIdService.cs" />
+    <Compile Include="service\management\myPurchase\GetPurInqEPItemSearchService.cs" />
+    <Compile Include="service\management\myPurchase\GetPurInquiryCountByCompIdService.cs" />
+    <Compile Include="service\management\myPurchase\GetPurInquiryEPItemService.cs" />
+    <Compile Include="service\management\myPurchase\GetPurInquiryService.cs" />
+    <Compile Include="service\login\GetWebValidateCodeService.cs" />
+    <Compile Include="Auth\ImportAttributeService.cs" />
+    <Compile Include="Auth\ImportEPItemService.cs" />
+    <Compile Include="Auth\ImportItemAttributeService.cs" />
+    <Compile Include="Auth\ImportItemCategoryService.cs" />
+    <Compile Include="Auth\ImportItemService.cs" />
+    <Compile Include="service\login\INdtechAuthProvider.cs" />
+    <Compile Include="service\login\INdtechAuthSession.cs" />
+    <Compile Include="service\login\INdtechUserAuthRepository.cs" />
+    <Compile Include="service\management\corpManagement\ModifyERPAddressService.cs" />
+    <Compile Include="service\management\myPurchase\ModifyERPItemStatusService.cs" />
+    <Compile Include="service\management\myPurchase\ModifyInquiryStateService.cs" />
+    <Compile Include="service\platform\order\ModifyPurOrderStateService.cs" />
+    <Compile Include="service\management\myPurchase\ModifyPurSelectService.cs" />
+    <Compile Include="service\management\mySale\ModifyQuotationStateService.cs" />
+    <Compile Include="service\management\corp\NdtechAddStaffInfoService.cs" />
+    <Compile Include="service\management\corp\NewEnterpriseAddressService.cs" />
+    <Compile Include="service\management\corpManagement\NewEnterpriseItemService.cs" />
+    <Compile Include="service\management\myPurchase\NewPurSelectService.cs" />
+    <Compile Include="service\platform\enquiry\PublishPurInquiryService.cs" />
+    <Compile Include="service\login\RestPossWordService.cs" />
+    <Compile Include="service\login\RetrievePasswordService.cs" />
+    <Compile Include="service\management\mySale\SalQuotationService.cs" />
+    <Compile Include="service\platform\enquiry\SaveSalQuotationDraftService.cs" />
+    <Compile Include="service\management\corpManagement\SearchByNameService.cs" />
+    <Compile Include="service\management\corpManagement\SearchCategoryService.cs" />
+    <Compile Include="service\management\corpManagement\SearchCompanyService.cs" />
+    <Compile Include="service\management\corpManagement\SearchItemAttributeService.cs" />
+    <Compile Include="service\management\myPurchase\SearchOrderService.cs" />
+    <Compile Include="service\management\corpManagement\SearchPlatformSupplierService.cs" />
+    <Compile Include="service\platform\supply\SearchProductByItemService.cs" />
+    <Compile Include="service\management\myPurchase\SearchPurInquiryByItemService.cs" />
+    <Compile Include="service\management\myPurchase\SearchSalQuotationCompInfoService.cs" />
+    <Compile Include="service\platform\supply\SearchSalQuotationService.cs" />
+    <Compile Include="service\professional\employee\SerachSupAndLowService.cs" />
+    <Compile Include="service\management\corpManagement\SerachSupplierService.cs" />
+    <Compile Include="service\professional\employee\SetLowerService.cs" />
+    <Compile Include="service\professional\employee\SetSuperiorService.cs" />
+    <Compile Include="service\login\TelCodeService.cs" />
+    <Compile Include="service\professional\employee\UpdateEmployee.cs" />
+    <Compile Include="service\login\UserNameCheckService.cs" />
+    <Compile Include="service\login\RetrieveVdTelCodeService.cs" />
+    <Compile Include="service\login\RetrieveVdWebCodeService.cs" />
+    <Compile Include="service\login\UserNamePasswordAuthProvider.cs" />
+    <Compile Include="Const.cs" />
+    <Compile Include="DataModel\AppData.cs" />
+    <Compile Include="DataModel\ArapReceiving.cs" />
+    <Compile Include="DataModel\CompanyCertification.cs" />
+    <Compile Include="DataModel\CompanyIntro.cs" />
+    <Compile Include="DataModel\CompanyMainProduct.cs" />
+    <Compile Include="DataModel\CompanyPromote.cs" />
+    <Compile Include="DataModel\DocumentNumbercs.cs" />
+    <Compile Include="DataModel\EnterpriseAddress.cs" />
+    <Compile Include="DataModel\EnterpriseItem.cs" />
+    <Compile Include="DataModel\EnterpriseItemAttribute.cs" />
+    <Compile Include="DataModel\EnterpriseItemBaseView.cs" />
+    <Compile Include="DataModel\EnterpriseItemCategory.cs" />
+    <Compile Include="DataModel\EnterpriseItemLog.cs" />
+    <Compile Include="DataModel\EnterpriseItemPrice.cs" />
+    <Compile Include="DataModel\LowerEmployee.cs" />
+    <Compile Include="DataModel\NdtechAcntSystem.cs" />
+    <Compile Include="DataModel\NdtechAttribute.cs" />
+    <Compile Include="DataModel\NdtechCompany.cs" />
+    <Compile Include="DataModel\NdtechDealLog.cs" />
+    <Compile Include="DataModel\NdtechItemAddress.cs" />
+    <Compile Include="DataModel\NdtechItemAttribute.cs" />
+    <Compile Include="DataModel\NdtechItemCategory.cs" />
+    <Compile Include="DataModel\NdtechLoginLog.cs" />
+    <Compile Include="DataModel\NdtechStaffCompany.cs" />
+    <Compile Include="DataModel\NdtechStaffInfo.cs" />
+    <Compile Include="DataModel\NdtechTelCode.cs" />
+    <Compile Include="DataModel\NdtechItem.cs" />
+    <Compile Include="DataModel\NdtechWebCode.cs" />
+    <Compile Include="DataModel\PurInquiry.cs" />
+    <Compile Include="DataModel\PurInquiryDetail.cs" />
+    <Compile Include="DataModel\PurInquirySearchView.cs" />
+    <Compile Include="DataModel\PurOrder.cs" />
+    <Compile Include="DataModel\PurOrderDetail.cs" />
+    <Compile Include="DataModel\PurSelect.cs" />
+    <Compile Include="DataModel\PurSelectResults.cs" />
+    <Compile Include="DataModel\PurShoppingCart.cs" />
+    <Compile Include="DataModel\Resources.cs" />
+    <Compile Include="DataModel\SalOutNoticeDetail.cs" />
+    <Compile Include="DataModel\SalQuotation.cs" />
+    <Compile Include="DataModel\SalQuotationComp.cs" />
+    <Compile Include="DataModel\SalQuotationDetail.cs" />
+    <Compile Include="DataModel\SalQuotationView.cs" />
+    <Compile Include="DataModel\SubscribeContact.cs" />
+    <Compile Include="DataModel\SubscribeFilter.cs" />
+    <Compile Include="DataModel\SubscribeReceive.cs" />
+    <Compile Include="DataModel\SuperiorEmployee.cs" />
+    <Compile Include="DataModel\UdocCustomer.cs" />
+    <Compile Include="DataModel\UdocSupplier.cs" />
+    <Compile Include="Extensions\NdtechServiceExtensions.cs" />
+    <Compile Include="Feature\NdtechAuthFeature.cs" />
+    <Compile Include="service\login\NdtechAuthProvider.cs" />
+    <Compile Include="service\login\NdtechAuthUserSession.cs" />
+    <Compile Include="Feature\RcordIDFeature.cs" />
+    <Compile Include="Feature\RegisteredFeature.cs" />
+    <Compile Include="service\login\RegisteredService.cs" />
+    <Compile Include="DataModel\NdtechUserAuth.cs" />
+    <Compile Include="service\login\NdtechOrmLiteAuthRepository.cs" />
+    <Compile Include="Feature\DataTableManagerFeature.cs" />
+    <Compile Include="Feature\RepositoryFeature.cs" />
+    <Compile Include="Filter\ServiceRunerFilter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SMS\HttpUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SMS\ISendMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Subscribe\Isubscribe.cs" />
+    <Compile Include="Subscribe\SubscribeAbstract.cs" />
+    <Compile Include="Subscribe\SubscribeCompany.cs" />
+    <Compile Include="Subscribe\SubscribeInquiry.cs" />
+    <Compile Include="Subscribe\SubscribeListService.cs" />
+    <Compile Include="Subscribe\SubscribeProduct.cs" />
+    <Compile Include="Subscribe\SubscribeService.cs" />
+    <Compile Include="SystemService\RecordIDService.cs" />
+    <Compile Include="SystemService\RecordIDSetting.cs" />
+    <Compile Include="Warning\InquiryOffDate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="Provider\" />
+    <Folder Include="service\management\homePage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PortalModel\PortalModel.csproj">
+      <Project>{ecefa2ae-91c4-4282-9781-58c17d868d38}</Project>
+      <Name>PortalModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMSServer\SMSService\SMSService.csproj">
+      <Project>{656abf98-4c81-4b76-8519-c7fbacb32d78}</Project>
+      <Name>SMSService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

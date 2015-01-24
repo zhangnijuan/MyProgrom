@@ -1,0 +1,175 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortalModel", "PortalModel", "{5A185842-F3D3-45E8-A40D-8C28AAC16674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortalService", "PortalService", "{F1A13523-E997-4910-9377-047AC1B93D95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortalServer", "PortalServer", "{387EDCF7-8736-4A96-8A1B-C9BD855F39BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProtalWeb", "ProtalWeb", "{D276B231-CF57-44FE-A4ED-FC597CC917C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalServer", "..\PortalServer\PortalServer.csproj", "{AE988403-CCD2-45FA-B6E2-98040167C4F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalModel", "..\PortalModel\PortalModel.csproj", "{ECEFA2AE-91C4-4282-9781-58C17D868D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalService", "..\PortalService\PortalService.csproj", "{9A2E051D-440C-4EC9-B63A-3CB9469DDFD9}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PortalWeb(1)", "http://localhost:14782", "{C3404A86-21F8-4826-AF44-3AA935C9D85D}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{AE988403-CCD2-45FA-B6E2-98040167C4F4}|Ndtech.PortalServer.dll;{C3F3D657-78DA-4A10-9B94-93193282DB4A}|Ndtech.FileUpload.dll;{ECEFA2AE-91C4-4282-9781-58C17D868D38}|Ndtech.PortalModel.dll;{9A2E051D-440C-4EC9-B63A-3CB9469DDFD9}|Ndtech.PortalService.dll;{656ABF98-4C81-4B76-8519-C7FBACB32D78}|Ndtech.SMSService.dll;{97BAE9AE-1876-480D-8D09-B4CC4371CE5D}|Ndtech.WarningEngine.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_14782"
+		Debug.AspNetCompiler.PhysicalPath = "..\PortalWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14782\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_14782"
+		Release.AspNetCompiler.PhysicalPath = "..\PortalWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_14782\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\PortalWeb\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUpload", "..\FileUpload\FileUpload.csproj", "{C3F3D657-78DA-4A10-9B94-93193282DB4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDB", "MongoDB", "{4810FE8B-FEA8-459D-B1D9-513B87B174EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtoolTech.MongoDB.Mapper", "..\MongoDB.Mapper\EtoolTech.MongoDB.Mapper.csproj", "{742A38AD-C394-4042-BA41-1A98B522718F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMongoDB", "TestMongoDB\TestMongoDB.csproj", "{444E6601-8666-467C-B28E-10ABF1C3458D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WarningEngine", "WarningEngine", "{C8A27D06-0A12-4ACF-8E0F-4037F1153E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarningEngine", "..\WarningEngine\WarningEngine\WarningEngine.csproj", "{97BAE9AE-1876-480D-8D09-B4CC4371CE5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SMSServer", "SMSServer", "{A04651AF-852C-47BB-91FD-7F2D34A3B323}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SMSServer", "http://localhost:22335", "{78EFF0A6-BD4B-4A52-B451-2C119E3304E1}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{656abf98-4c81-4b76-8519-c7fbacb32d78}|Ndtech.SMSService.dll;{ECEFA2AE-91C4-4282-9781-58C17D868D38}|Ndtech.PortalModel.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_22335"
+		Debug.AspNetCompiler.PhysicalPath = "..\SMSServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_22335\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_22335"
+		Release.AspNetCompiler.PhysicalPath = "..\SMSServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_22335\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\SMSServer\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSService", "..\SMSServer\SMSService\SMSService.csproj", "{656ABF98-4C81-4B76-8519-C7FBACB32D78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{8148E134-F168-4994-B131-BD0C7A38C9C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileUploadServer", "FileUploadServer", "{CBF85650-4D60-47E3-8F39-B3D45EE4015F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FileUploadServer", "http://localhost:1270", "{E7895646-7EC5-4FD1-A0C6-ED15D60B22FF}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1270"
+		Debug.AspNetCompiler.PhysicalPath = "..\FileUploadServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1270\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1270"
+		Release.AspNetCompiler.PhysicalPath = "..\FileUploadServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1270\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\FileUploadServer\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE988403-CCD2-45FA-B6E2-98040167C4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE988403-CCD2-45FA-B6E2-98040167C4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE988403-CCD2-45FA-B6E2-98040167C4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE988403-CCD2-45FA-B6E2-98040167C4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEFA2AE-91C4-4282-9781-58C17D868D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEFA2AE-91C4-4282-9781-58C17D868D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEFA2AE-91C4-4282-9781-58C17D868D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEFA2AE-91C4-4282-9781-58C17D868D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A2E051D-440C-4EC9-B63A-3CB9469DDFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2E051D-440C-4EC9-B63A-3CB9469DDFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2E051D-440C-4EC9-B63A-3CB9469DDFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2E051D-440C-4EC9-B63A-3CB9469DDFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3404A86-21F8-4826-AF44-3AA935C9D85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3404A86-21F8-4826-AF44-3AA935C9D85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3404A86-21F8-4826-AF44-3AA935C9D85D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3404A86-21F8-4826-AF44-3AA935C9D85D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C3F3D657-78DA-4A10-9B94-93193282DB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F3D657-78DA-4A10-9B94-93193282DB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F3D657-78DA-4A10-9B94-93193282DB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F3D657-78DA-4A10-9B94-93193282DB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742A38AD-C394-4042-BA41-1A98B522718F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742A38AD-C394-4042-BA41-1A98B522718F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742A38AD-C394-4042-BA41-1A98B522718F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742A38AD-C394-4042-BA41-1A98B522718F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444E6601-8666-467C-B28E-10ABF1C3458D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444E6601-8666-467C-B28E-10ABF1C3458D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444E6601-8666-467C-B28E-10ABF1C3458D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444E6601-8666-467C-B28E-10ABF1C3458D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97BAE9AE-1876-480D-8D09-B4CC4371CE5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97BAE9AE-1876-480D-8D09-B4CC4371CE5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97BAE9AE-1876-480D-8D09-B4CC4371CE5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97BAE9AE-1876-480D-8D09-B4CC4371CE5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EFF0A6-BD4B-4A52-B451-2C119E3304E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EFF0A6-BD4B-4A52-B451-2C119E3304E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EFF0A6-BD4B-4A52-B451-2C119E3304E1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EFF0A6-BD4B-4A52-B451-2C119E3304E1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{656ABF98-4C81-4B76-8519-C7FBACB32D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656ABF98-4C81-4B76-8519-C7FBACB32D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656ABF98-4C81-4B76-8519-C7FBACB32D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656ABF98-4C81-4B76-8519-C7FBACB32D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7895646-7EC5-4FD1-A0C6-ED15D60B22FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7895646-7EC5-4FD1-A0C6-ED15D60B22FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7895646-7EC5-4FD1-A0C6-ED15D60B22FF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7895646-7EC5-4FD1-A0C6-ED15D60B22FF}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECEFA2AE-91C4-4282-9781-58C17D868D38} = {5A185842-F3D3-45E8-A40D-8C28AAC16674}
+		{9A2E051D-440C-4EC9-B63A-3CB9469DDFD9} = {F1A13523-E997-4910-9377-047AC1B93D95}
+		{AE988403-CCD2-45FA-B6E2-98040167C4F4} = {387EDCF7-8736-4A96-8A1B-C9BD855F39BD}
+		{C3404A86-21F8-4826-AF44-3AA935C9D85D} = {D276B231-CF57-44FE-A4ED-FC597CC917C1}
+		{C3F3D657-78DA-4A10-9B94-93193282DB4A} = {CBF85650-4D60-47E3-8F39-B3D45EE4015F}
+		{E7895646-7EC5-4FD1-A0C6-ED15D60B22FF} = {CBF85650-4D60-47E3-8F39-B3D45EE4015F}
+		{742A38AD-C394-4042-BA41-1A98B522718F} = {4810FE8B-FEA8-459D-B1D9-513B87B174EB}
+		{444E6601-8666-467C-B28E-10ABF1C3458D} = {4810FE8B-FEA8-459D-B1D9-513B87B174EB}
+		{97BAE9AE-1876-480D-8D09-B4CC4371CE5D} = {C8A27D06-0A12-4ACF-8E0F-4037F1153E50}
+		{78EFF0A6-BD4B-4A52-B451-2C119E3304E1} = {A04651AF-852C-47BB-91FD-7F2D34A3B323}
+		{656ABF98-4C81-4B76-8519-C7FBACB32D78} = {A04651AF-852C-47BB-91FD-7F2D34A3B323}
+	EndGlobalSection
+EndGlobal

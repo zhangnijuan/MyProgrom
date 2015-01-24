@@ -1,0 +1,12 @@
+E:\zzzzzzzzzzz\program\app\PortalModel\bin\Debug\Ndtech.PortalModel.dll
+E:\zzzzzzzzzzz\program\app\PortalModel\bin\Debug\Ndtech.PortalModel.pdb
+E:\zzzzzzzzzzz\program\app\PortalModel\bin\Debug\Mono.Security.dll
+E:\zzzzzzzzzzz\program\app\PortalModel\bin\Debug\ServiceStack.Common.dll
+E:\zzzzzzzzzzz\program\app\PortalModel\bin\Debug\ServiceStack.dll
+E:\zzzzzzzzzzz\program\app\PortalModel\bin\Debug\ServiceStack.Interfaces.dll
+E:\zzzzzzzzzzz\program\app\PortalModel\bin\Debug\ServiceStack.ServiceInterface.dll
+E:\zzzzzzzzzzz\program\app\PortalModel\bin\Debug\ServiceStack.Text.dll
+E:\zzzzzzzzzzz\program\app\PortalModel\bin\Debug\ServiceStack.OrmLite.dll
+E:\zzzzzzzzzzz\program\app\PortalModel\obj\Debug\PortalModel.csprojResolveAssemblyReference.cache
+E:\zzzzzzzzzzz\program\app\PortalModel\obj\Debug\Ndtech.PortalModel.dll
+E:\zzzzzzzzzzz\program\app\PortalModel\obj\Debug\Ndtech.PortalModel.pdb

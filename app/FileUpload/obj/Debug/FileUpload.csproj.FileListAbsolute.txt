@@ -1,0 +1,13 @@
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\Ndtech.FileUpload.dll
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\Ndtech.FileUpload.pdb
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\ServiceStack.Common.dll
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\ServiceStack.dll
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\ServiceStack.Interfaces.dll
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\ServiceStack.ServiceInterface.dll
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\ServiceStack.Text.dll
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\ServiceStack.OrmLite.dll
+E:\zzzzzzzzzzz\program\app\FileUpload\obj\Debug\FileUpload.csprojResolveAssemblyReference.cache
+E:\zzzzzzzzzzz\program\app\FileUpload\obj\Debug\Ndtech.FileUpload.dll
+E:\zzzzzzzzzzz\program\app\FileUpload\obj\Debug\Ndtech.FileUpload.pdb
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\NLog.dll
+E:\zzzzzzzzzzz\program\app\FileUpload\bin\Debug\ServiceStack.Logging.NLog.dll

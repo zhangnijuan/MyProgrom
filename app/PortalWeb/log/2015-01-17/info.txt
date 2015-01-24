@@ -1,0 +1,316 @@
+2015-01-17 14:42:34.0821|INFO|ProtalHostServer|info start...|
+2015-01-17 14:42:34.1271|ERROR|ProtalHostServer|error start...|
+2015-01-17 14:45:04.9548|INFO|ProtalHostServer|info start...|
+2015-01-17 14:45:04.9618|ERROR|ProtalHostServer|error start...|
+2015-01-17 14:51:08.4565|INFO|ProtalHostServer|info start...|
+2015-01-17 14:51:08.4635|ERROR|ProtalHostServer|error start...|
+2015-01-17 15:10:37.2824|INFO|ProtalHostServer|info start...|
+2015-01-17 15:10:37.2824|ERROR|ProtalHostServer|error start...|
+2015-01-17 15:22:08.0959|ERROR|NotFoundHttpHandler|192.168.50.49 Request not found: /api/06f9c327900e457fb0a700a7a7300bb5/860fcc1838bf4501a1d669aed8936b99/subscribe/inquiry/search|
+2015-01-17 15:22:09.2450|ERROR|NotFoundHttpHandler|192.168.50.49 Request not found: /api/06f9c327900e457fb0a700a7a7300bb5/860fcc1838bf4501a1d669aed8936b99/subscribe/inquiry/search|
+2015-01-17 15:22:12.0591|ERROR|NotFoundHttpHandler|192.168.50.49 Request not found: /api/06f9c327900e457fb0a700a7a7300bb5/860fcc1838bf4501a1d669aed8936b99/subscribe/inquiry/search|
+2015-01-17 15:22:15.7794|ERROR|NotFoundHttpHandler|192.168.50.49 Request not found: /api/06f9c327900e457fb0a700a7a7300bb5/860fcc1838bf4501a1d669aed8936b99/subscribe/inquiry/search|
+2015-01-17 15:22:16.8914|ERROR|NotFoundHttpHandler|192.168.50.49 Request not found: /api/06f9c327900e457fb0a700a7a7300bb5/860fcc1838bf4501a1d669aed8936b99/subscribe/inquiry/search|
+2015-01-17 15:22:19.7636|ERROR|NotFoundHttpHandler|192.168.50.49 Request not found: /api/06f9c327900e457fb0a700a7a7300bb5/860fcc1838bf4501a1d669aed8936b99/subscribe/inquiry/search|
+2015-01-17 15:22:21.2207|ERROR|NotFoundHttpHandler|192.168.50.49 Request not found: /api/06f9c327900e457fb0a700a7a7300bb5/860fcc1838bf4501a1d669aed8936b99/subscribe/inquiry/search|
+2015-01-17 15:22:35.7525|ERROR|NotFoundHttpHandler|192.168.50.49 Request not found: /api/06f9c327900e457fb0a700a7a7300bb5/860fcc1838bf4501a1d669aed8936b99/subscribe/inquiry/search|
+2015-01-17 15:26:45.9538|INFO|ProtalHostServer|info start...|
+2015-01-17 15:26:45.9538|ERROR|ProtalHostServer|error start...|
+2015-01-17 15:33:21.8704|INFO|ProtalHostServer|info start...|
+2015-01-17 15:33:21.8704|ERROR|ProtalHostServer|error start...|
+2015-01-17 15:59:50.4853|INFO|ProtalHostServer|info start...|
+2015-01-17 15:59:50.4923|ERROR|ProtalHostServer|error start...|
+2015-01-17 16:09:10.6133|INFO|ProtalHostServer|info start...|
+2015-01-17 16:09:10.6244|ERROR|ProtalHostServer|error start...|
+2015-01-17 16:24:26.9938|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+OFFSET must not be negative
+Severity: ERROR
+Code: 2201X
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRow(Boolean clearPending)
+   在 Npgsql.ForwardsOnlyDataReader.Read()
+   在 ServiceStack.OrmLite.OrmLiteUtilExtensions.ConvertToList[T](IDataReader dataReader)
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 16:24:27.6298|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+OFFSET must not be negative
+Severity: ERROR
+Code: 2201X
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRow(Boolean clearPending)
+   在 Npgsql.ForwardsOnlyDataReader.Read()
+   在 ServiceStack.OrmLite.OrmLiteUtilExtensions.ConvertToList[T](IDataReader dataReader)
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 16:24:28.3008|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+OFFSET must not be negative
+Severity: ERROR
+Code: 2201X
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRow(Boolean clearPending)
+   在 Npgsql.ForwardsOnlyDataReader.Read()
+   在 ServiceStack.OrmLite.OrmLiteUtilExtensions.ConvertToList[T](IDataReader dataReader)
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 16:24:28.9129|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+OFFSET must not be negative
+Severity: ERROR
+Code: 2201X
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRow(Boolean clearPending)
+   在 Npgsql.ForwardsOnlyDataReader.Read()
+   在 ServiceStack.OrmLite.OrmLiteUtilExtensions.ConvertToList[T](IDataReader dataReader)
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 16:24:29.3609|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+OFFSET must not be negative
+Severity: ERROR
+Code: 2201X
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRow(Boolean clearPending)
+   在 Npgsql.ForwardsOnlyDataReader.Read()
+   在 ServiceStack.OrmLite.OrmLiteUtilExtensions.ConvertToList[T](IDataReader dataReader)
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 16:24:30.4220|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+OFFSET must not be negative
+Severity: ERROR
+Code: 2201X
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRow(Boolean clearPending)
+   在 Npgsql.ForwardsOnlyDataReader.Read()
+   在 ServiceStack.OrmLite.OrmLiteUtilExtensions.ConvertToList[T](IDataReader dataReader)
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 16:24:33.6671|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+OFFSET must not be negative
+Severity: ERROR
+Code: 2201X
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRow(Boolean clearPending)
+   在 Npgsql.ForwardsOnlyDataReader.Read()
+   在 ServiceStack.OrmLite.OrmLiteUtilExtensions.ConvertToList[T](IDataReader dataReader)
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 17:03:57.5804|INFO|ProtalHostServer|info start...|
+2015-01-17 17:03:57.5874|ERROR|ProtalHostServer|error start...|
+2015-01-17 17:05:14.5348|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+invalid input syntax for type numeric: "重量"
+Severity: ERROR
+Code: 22P02
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchProductByItemService.Post(SearchEnterpriseItemRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\platform\supply\SearchProductByItemService.cs:行号 174
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 17:06:18.4704|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+invalid input syntax for type numeric: "重量"
+Severity: ERROR
+Code: 22P02
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchProductByItemService.Post(SearchEnterpriseItemRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\platform\supply\SearchProductByItemService.cs:行号 174
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 17:07:03.1570|INFO|ProtalHostServer|info start...|
+2015-01-17 17:07:03.1640|ERROR|ProtalHostServer|error start...|
+2015-01-17 17:08:38.5204|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+column reference "itemid" is ambiguous
+Severity: ERROR
+Code: 42702
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchProductByItemService.Post(SearchEnterpriseItemRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\platform\supply\SearchProductByItemService.cs:行号 174
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 17:09:17.1656|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+column reference "itemid" is ambiguous
+Severity: ERROR
+Code: 42702
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchProductByItemService.Post(SearchEnterpriseItemRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\platform\supply\SearchProductByItemService.cs:行号 174
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 17:09:59.1800|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+column reference "itemid" is ambiguous
+Severity: ERROR
+Code: 42702
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchProductByItemService.Post(SearchEnterpriseItemRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\platform\supply\SearchProductByItemService.cs:行号 174
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 17:10:00.2121|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+column reference "itemid" is ambiguous
+Severity: ERROR
+Code: 42702
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchProductByItemService.Post(SearchEnterpriseItemRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\platform\supply\SearchProductByItemService.cs:行号 174
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 17:10:04.2373|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+column reference "itemid" is ambiguous
+Severity: ERROR
+Code: 42702
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchProductByItemService.Post(SearchEnterpriseItemRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\platform\supply\SearchProductByItemService.cs:行号 174
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 17:11:16.6395|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+column reference "itemid" is ambiguous
+Severity: ERROR
+Code: 42702
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchProductByItemService.Post(SearchEnterpriseItemRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\platform\supply\SearchProductByItemService.cs:行号 174
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-17 17:14:04.9231|INFO|ProtalHostServer|info start...|
+2015-01-17 17:14:04.9301|ERROR|ProtalHostServer|error start...|
+2015-01-17 17:19:00.4910|INFO|ProtalHostServer|info start...|
+2015-01-17 17:19:00.5000|ERROR|ProtalHostServer|error start...|
+2015-01-17 17:46:21.7079|INFO|ProtalHostServer|info start...|
+2015-01-17 17:46:21.7419|ERROR|ProtalHostServer|error start...|
+2015-01-17 17:47:30.2748|ERROR|NotFoundHttpHandler|192.168.50.104 Request not found: /api/1f72a3f6d759463ab5ad6673d6b675b3/7265b89cb32c4a489dae923b8cc3f1c4/89/search/state/total|
+2015-01-17 17:47:30.2748|ERROR|NotFoundHttpHandler|192.168.50.104 Request not found: /api/1f72a3f6d759463ab5ad6673d6b675b3/7265b89cb32c4a489dae923b8cc3f1c4/89/search/state/total|
+2015-01-17 17:47:30.2748|ERROR|NotFoundHttpHandler|192.168.50.104 Request not found: /api/1f72a3f6d759463ab5ad6673d6b675b3/7265b89cb32c4a489dae923b8cc3f1c4/subscribe/search|
+2015-01-17 17:47:50.6090|ERROR|NotFoundHttpHandler|192.168.50.104 Request not found: /api/1f72a3f6d759463ab5ad6673d6b675b3/7265b89cb32c4a489dae923b8cc3f1c4/companyinfo/modify|
+2015-01-17 18:37:09.3902|INFO|ProtalHostServer|info start...|
+2015-01-17 18:37:09.3902|ERROR|ProtalHostServer|error start...|
+2015-01-17 18:56:06.3992|INFO|ProtalHostServer|info start...|
+2015-01-17 18:56:06.4052|ERROR|ProtalHostServer|error start...|
+2015-01-17 18:58:22.4140|INFO|ProtalHostServer|info start...|
+2015-01-17 18:58:22.4210|ERROR|ProtalHostServer|error start...|

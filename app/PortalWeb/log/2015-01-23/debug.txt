@@ -1,0 +1,20 @@
+2015-01-23 16:21:24.2073|INFO|ProtalHostServer|info start...|
+2015-01-23 16:21:24.3203|ERROR|ProtalHostServer|error start...|
+2015-01-23 16:21:25.4323|ERROR|NotFoundHttpHandler|192.168.50.104 Request not found: /api/web/product/search|
+2015-01-23 16:25:59.4100|ERROR|NotFoundHttpHandler|192.168.50.104 Request not found: /api/web/product/search|
+2015-01-23 16:26:45.7137|ERROR|NotFoundHttpHandler|192.168.50.104 Request not found: /api/web/product/search|
+2015-01-23 16:26:56.0983|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"n" ,"tel" ,"fax" ,"url" ,"conper" ,"contel" ,"sid" ,"scale" ,"area" ,"approved" ,"createdate" ,"favorites" ,"releases" ,"inquirynumber" ,"logo_rid"  
+FROM "udoc_comp"
+WHERE ("a" = 117)|
+2015-01-23 16:26:56.0983|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"n" ,"tel" ,"fax" ,"url" ,"conper" ,"contel" ,"sid" ,"scale" ,"area" ,"approved" ,"createdate" ,"favorites" ,"releases" ,"inquirynumber" ,"logo_rid"  
+FROM "udoc_comp"
+WHERE ("a" = 118)|
+2015-01-23 16:26:56.1103|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"n" ,"tel" ,"fax" ,"url" ,"conper" ,"contel" ,"sid" ,"scale" ,"area" ,"approved" ,"createdate" ,"favorites" ,"releases" ,"inquirynumber" ,"logo_rid"  
+FROM "udoc_comp"
+WHERE ("a" = 118)|
+2015-01-23 16:26:56.1103|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"n" ,"tel" ,"fax" ,"url" ,"conper" ,"contel" ,"sid" ,"scale" ,"area" ,"approved" ,"createdate" ,"favorites" ,"releases" ,"inquirynumber" ,"logo_rid"  
+FROM "udoc_comp"
+WHERE ("a" = 143)|
+2015-01-23 16:26:56.1103|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"n" ,"tel" ,"fax" ,"url" ,"conper" ,"contel" ,"sid" ,"scale" ,"area" ,"approved" ,"createdate" ,"favorites" ,"releases" ,"inquirynumber" ,"logo_rid"  
+FROM "udoc_comp"
+WHERE ("a" = 118)|

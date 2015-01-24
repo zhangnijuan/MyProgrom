@@ -1,0 +1,90 @@
+2015-01-21 11:40:32.5884|INFO|ProtalHostServer|info start...|
+2015-01-21 11:40:32.9544|ERROR|ProtalHostServer|error start...|
+2015-01-21 17:38:15.1520|INFO|ProtalHostServer|info start...|
+2015-01-21 17:38:15.1720|ERROR|ProtalHostServer|error start...|
+2015-01-21 17:40:00.4040|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:40:00.5470|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 17:40:11.0986|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:40:11.0986|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 17:48:04.1947|INFO|ProtalHostServer|info start...|
+2015-01-21 17:48:04.2017|ERROR|ProtalHostServer|error start...|
+2015-01-21 17:48:05.6258|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:48:05.6798|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 17:48:13.0472|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:48:21.1196|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:48:21.1326|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 17:48:53.9925|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:48:54.0075|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 17:57:00.0003|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:57:00.0033|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 17:57:58.9677|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:57:58.9777|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 17:59:35.9892|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:59:36.0472|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 17:59:57.4795|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 17:59:57.4855|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:01:55.6412|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 18:01:55.6552|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:02:18.6235|INFO|ProtalHostServer|info start...|
+2015-01-21 18:02:18.6345|ERROR|ProtalHostServer|error start...|
+2015-01-21 18:02:20.0836|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 18:02:20.1376|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:03:01.1880|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 18:03:01.1910|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:04:14.0721|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d01d75d2186f408293a06151f25f0f0c/d0ded54fb0c140cda94ab4cc1a02e766/115/Purchase/purorder/search|
+2015-01-21 18:04:14.0851|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:05:00.0248|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/66f038c12bf24544be37f7d5cf981e49/120b8413c5274534878f26ca0dadcf49/115/Purchase/purorder/search|
+2015-01-21 18:05:00.4578|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/66f038c12bf24544be37f7d5cf981e49/120b8413c5274534878f26ca0dadcf49/115/Purchase/purorder/search|
+2015-01-21 18:05:00.4578|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:05:22.2800|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/66f038c12bf24544be37f7d5cf981e49/120b8413c5274534878f26ca0dadcf49/115/Purchase/purorder/search|
+2015-01-21 18:05:22.2800|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:07:04.0389|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/66f038c12bf24544be37f7d5cf981e49/120b8413c5274534878f26ca0dadcf49/115/Purchase/purorder/search|
+2015-01-21 18:07:04.0389|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:07:04.9389|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/66f038c12bf24544be37f7d5cf981e49/120b8413c5274534878f26ca0dadcf49/115/Purchase/purorder/search|
+2015-01-21 18:07:04.9449|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:07:27.2342|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/66f038c12bf24544be37f7d5cf981e49/120b8413c5274534878f26ca0dadcf49/115/Purchase/purorder/search|
+2015-01-21 18:07:27.2352|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:07:28.1312|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/66f038c12bf24544be37f7d5cf981e49/120b8413c5274534878f26ca0dadcf49/115/Purchase/purorder/search|
+2015-01-21 18:07:28.1312|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|
+2015-01-21 18:07:28.9273|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/66f038c12bf24544be37f7d5cf981e49/120b8413c5274534878f26ca0dadcf49/115/Purchase/purorder/search|
+2015-01-21 18:07:28.9273|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("id" = 157504026708100)|

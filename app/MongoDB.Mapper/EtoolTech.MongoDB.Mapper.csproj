@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{742A38AD-C394-4042-BA41-1A98B522718F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MongoDB.Mapper</RootNamespace>
+    <AssemblyName>MongoDB.Mapper</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\MongoChildCollection.cs" />
+    <Compile Include="Attributes\MongoCollectionName.cs" />
+    <Compile Include="Attributes\MongoCountField.cs" />
+    <Compile Include="Attributes\MongoCustomDiscriminatorType.cs" />
+    <Compile Include="Attributes\MongoDownRelation.cs" />
+    <Compile Include="Attributes\MongoGeo2DIndex.cs" />
+    <Compile Include="Attributes\MongoGeo2SSphereIndex.cs" />
+    <Compile Include="Attributes\MongoIndex.cs" />
+    <Compile Include="Attributes\MongoKey.cs" />
+    <Compile Include="Attributes\MongoMapperIdIncrementable.cs" />
+    <Compile Include="Attributes\MongoPropertyValidator.cs" />
+    <Compile Include="Attributes\MongoTTLIndex.cs" />
+    <Compile Include="Attributes\MongoUpRelation.cs" />
+    <Compile Include="BsonDocumentManager.cs" />
+    <Compile Include="Configuration\ConfigManager.cs" />
+    <Compile Include="Configuration\ICollectionElement.cs" />
+    <Compile Include="Configuration\IContext.cs" />
+    <Compile Include="Configuration\IDatabase.cs" />
+    <Compile Include="Configuration\IMongoMapperConfiguration.cs" />
+    <Compile Include="Configuration\IServer.cs" />
+    <Compile Include="Configuration\MongoMapperConfiguracionBase.cs" />
+    <Compile Include="Configuration\MongoMapperConfiguration.cs" />
+    <Compile Include="Core\ChildsManager.cs" />
+    <Compile Include="Core\CollectionsManager.cs" />
+    <Compile Include="Core\CustomContext.cs" />
+    <Compile Include="Core\Events.cs" />
+    <Compile Include="Core\ExpressionParser.cs" />
+    <Compile Include="Core\ExtensionMethods.cs" />
+    <Compile Include="Core\Finder.cs" />
+    <Compile Include="Core\GeoHelper.cs" />
+    <Compile Include="Core\MongoMapperHelper.cs" />
+    <Compile Include="Core\MongoMapperIdGenerator.cs" />
+    <Compile Include="Core\MongoQuery.cs" />
+    <Compile Include="Core\ObjectSerializer.cs" />
+    <Compile Include="Core\PropertyValidator.cs" />
+    <Compile Include="Core\ReflectionUtility.cs" />
+    <Compile Include="Core\Relations.cs" />
+    <Compile Include="Core\Writer.cs" />
+    <Compile Include="Exceptions\DeleteDocumentException.cs" />
+    <Compile Include="Exceptions\DuplicateKeyException.cs" />
+    <Compile Include="Exceptions\DuplicateTransaction.cs" />
+    <Compile Include="Exceptions\FindByKeyNotFoundException.cs" />
+    <Compile Include="Exceptions\ServerUpdateException.cs" />
+    <Compile Include="Exceptions\TypeNotSupportedException.cs" />
+    <Compile Include="Exceptions\ValidateDownRelationException.cs" />
+    <Compile Include="Exceptions\ValidatePropertyException.cs" />
+    <Compile Include="Exceptions\ValidateUpRelationException.cs" />
+    <Compile Include="Interfaces\ICache.cs" />
+    <Compile Include="Interfaces\IChildsManager.cs" />
+    <Compile Include="Interfaces\IConfig.cs" />
+    <Compile Include="Interfaces\IEvents.cs" />
+    <Compile Include="Interfaces\IFinder.cs" />
+    <Compile Include="Interfaces\IMongoMapperChildIdeable.cs" />
+    <Compile Include="Interfaces\IMongoMapperCollection.cs" />
+    <Compile Include="Interfaces\IMongoMapperIdeable.cs" />
+    <Compile Include="Interfaces\IMongoMapperOriginable.cs" />
+    <Compile Include="Interfaces\IMongoMapperRelationable.cs" />
+    <Compile Include="Interfaces\IMongoMapperTransaction.cs" />
+    <Compile Include="Interfaces\IMongoMapperVersionable.cs" />
+    <Compile Include="Interfaces\IMongoMapperWriteable.cs" />
+    <Compile Include="Interfaces\IRelations.cs" />
+    <Compile Include="Interfaces\IRules.cs" />
+    <Compile Include="Interfaces\IWriter.cs" />
+    <Compile Include="MongoMapper.cs" />
+    <Compile Include="MongoMapperChild.cs" />
+    <Compile Include="MongoMapperCollection.cs" />
+    <Compile Include="PagerInfo.cs" />
+    <Compile Include="Transaction\MongoMapperTransaction.cs" />
+    <Compile Include="Transaction\OperationType.cs" />
+    <Compile Include="Transaction\Queue.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\..\lib\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\..\lib\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

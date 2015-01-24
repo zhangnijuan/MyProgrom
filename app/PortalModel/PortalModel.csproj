@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ECEFA2AE-91C4-4282-9781-58C17D868D38}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ndtech.PortalModel</RootNamespace>
+    <AssemblyName>Ndtech.PortalModel</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Security">
+      <HintPath>..\lib\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack">
+      <HintPath>..\lib\ServiceStack.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\lib\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\lib\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.ServiceInterface">
+      <HintPath>..\lib\ServiceStack.ServiceInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\lib\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Order.cs" />
+    <Compile Include="Page.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnPicResources.cs" />
+    <Compile Include="SearchEnum.cs" />
+    <Compile Include="ViewModel\CreateSubscriptionModel.cs" />
+    <Compile Include="ViewModel\DeleteSubscriptionModel.cs" />
+    <Compile Include="ViewModel\EidtPurchasePlanByIdModel.cs" />
+    <Compile Include="ViewModel\ImportPurchasePlanModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\CompanyStateModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\CreatePurEvaluationModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetCertificationByIDModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetCertificationModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetEvaluationByIDModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetEvaluationByTypeModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetItemCertificationByDIDRequest.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetItemCertificationByIDModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetItemCertificationCodeModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetItemCertificationModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetItemPriceTrendModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetOldCompItemByIDModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetOldEnterprisesPriceModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetStateLogModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\ModifyCustomerStateModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\ModifyDealSupplierStateModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SaveItemCertificationModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SearchCustomerModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SearchDealSupplierModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SearchEnshrineCompanyModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SearchPurEvaluationModel.cs" />
+    <Compile Include="ViewModel\management\corp\CheckCompNameIsExist.cs" />
+    <Compile Include="ViewModel\management\corpManagement\CompamyIntroModel.cs" />
+    <Compile Include="ViewModel\management\corp\CompanyCertificationModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\CompanyPromoteModel.cs" />
+    <Compile Include="ViewModel\management\corp\GetAllCategoryModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPlanDetailByIDModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPurOrderHistoryModel.cs" />
+    <Compile Include="ViewModel\management\mySale\GetSalQuotationStateModel.cs" />
+    <Compile Include="ViewModel\platform\order\CreatePurOrderByPurPlanModel.cs" />
+    <Compile Include="ViewModel\platform\order\CreatePurOrderByShoppingCartModel.cs" />
+    <Compile Include="ViewModel\platform\order\CreatePurOrderModel.cs" />
+    <Compile Include="ViewModel\platform\order\CreatePurShoppingCartModel.cs" />
+    <Compile Include="ViewModel\DealLogModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\DeleteERPAddressModel.cs" />
+    <Compile Include="ViewModel\platform\order\DeletePurShoppingCartItem.cs" />
+    <Compile Include="ViewModel\management\corp\GetCompanyRecordByIDModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetEnterpriseAddressModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetCompItemByIDModel.cs" />
+    <Compile Include="ViewModel\management\corp\GetEnterpriseCategoryRequest.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetEnterpriseItemModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetInquiryByIDModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPurInquryStateCountModel.cs" />
+    <Compile Include="ViewModel\platform\order\GetPurorderByIDModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPurOrderStateCntModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPurSelectModel.cs" />
+    <Compile Include="ViewModel\platform\order\GetPurShoppingCartByEIDModel.cs" />
+    <Compile Include="ViewModel\management\mySale\GetQuotationByIDModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetQuotationByInquiryDIDModel.cs" />
+    <Compile Include="ViewModel\management\mySale\GetSalQuotationStateCntModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\ModifyERPAddressModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\ModifyERPItemStatusModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\ModifyInquiryStateModel.cs" />
+    <Compile Include="ViewModel\platform\order\ModifyPurOrderStateModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\ModifyPurSelectModel.cs" />
+    <Compile Include="ViewModel\management\mySale\ModifyQuotationStateModel.cs" />
+    <Compile Include="ViewModel\management\corp\NewEnterpriseAddressModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\NewEnterpriseItemModel.cs" />
+    <Compile Include="ViewModel\ClientType.cs" />
+    <Compile Include="ViewModel\management\corp\EditCompanyInfoModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\ModifyEnterpriseItemModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetItemAttributeModel.cs" />
+    <Compile Include="ViewModel\management\corp\GetItemCategoryModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\GetItemModel.cs" />
+    <Compile Include="ViewModel\platform\supply\SearchTotalCntModel.cs" />
+    <Compile Include="ViewModel\professional\employee\CheckSysCodeModel.cs" />
+    <Compile Include="ViewModel\professional\employee\GetAllEmployeeModel.cs" />
+    <Compile Include="ViewModel\management\corp\GetCompanyInfoModel.cs" />
+    <Compile Include="ViewModel\professional\employee\GetEmployeeByIdModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPublishCountByCompIdRequest.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPurInqEPItemSearchModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPurInquiryCountByCompIdRequest.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPurInquiryAmountModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPurInquiryEPItemModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\GetPurInquiryModel.cs" />
+    <Compile Include="ViewModel\GetWebValidateCodeModel.cs" />
+    <Compile Include="ViewModel\Hello.cs" />
+    <Compile Include="ViewModel\ImportAttributeRequest.cs" />
+    <Compile Include="ViewModel\ImportEPItemRequest.cs" />
+    <Compile Include="ViewModel\ImportItemAttributeRequest.cs" />
+    <Compile Include="ViewModel\ImportItemCategoryRequest.cs" />
+    <Compile Include="ViewModel\ImportItemRequest.cs" />
+    <Compile Include="ViewModel\account\LoginModel.cs" />
+    <Compile Include="ViewModel\professional\employee\AddStaffInfoModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\NewPurSelectModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\PublishPurInquiryModel.cs" />
+    <Compile Include="ViewModel\account\RegisteredModel.cs" />
+    <Compile Include="ViewModel\account\RestPossWordModel.cs" />
+    <Compile Include="ViewModel\account\RetrievePasswordModel.cs" />
+    <Compile Include="ViewModel\management\mySale\SalQuotationModel.cs" />
+    <Compile Include="ViewModel\platform\enquiry\SaveSalQuotationDraftModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SearchByNameModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SearchCategoryModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SearchCompanyRequest.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SearchItemAttributeModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\SearchOrderModel.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SearchPlatformSupplierModel.cs" />
+    <Compile Include="ViewModel\platform\supply\SearchProductByItemModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\SearchPurInquiryByItemModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\SearchSalQuotationCompInfoModel.cs" />
+    <Compile Include="ViewModel\management\mySale\SearchSalQuotationRequest.cs" />
+    <Compile Include="ViewModel\management\corpManagement\SerachAllCompanyModel.cs" />
+    <Compile Include="ViewModel\professional\employee\SerachSupAndLowModel.cs" />
+    <Compile Include="ViewModel\professional\employee\SetLowerModel.cs" />
+    <Compile Include="ViewModel\professional\employee\SetSuperiorModel.cs" />
+    <Compile Include="ViewModel\SavePurchasePlanModel.cs" />
+    <Compile Include="ViewModel\SearchPurchasePlanModel.cs" />
+    <Compile Include="ViewModel\SearchSubscriptionModel.cs" />
+    <Compile Include="ViewModel\SubscribeViewListModel.cs" />
+    <Compile Include="ViewModel\SubscribeViewModel.cs" />
+    <Compile Include="ViewModel\account\TelCodeModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\UdocCustomerModel.cs" />
+    <Compile Include="ViewModel\management\mySale\UdocSupplierModel.cs" />
+    <Compile Include="ViewModel\professional\employee\UpdateEmployeeModel.cs" />
+    <Compile Include="ViewModel\management\myPurchase\UpdatePurInquiryStateModel.cs" />
+    <Compile Include="ViewModel\account\UserNameCheckModel.cs" />
+    <Compile Include="ViewModel\RetrieveVdTelCodeModel.cs" />
+    <Compile Include="ViewModel\RetrieveVdWebCodeModel.cs" />
+    <Compile Include="ViewModel\SubscriptionListModel.cs" />
+    <Compile Include="ViewModel\ValidateUserGetMobileModel.cs" />
+    <Compile Include="ViewModel\ValidateUserMobileModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModel\management\homePage\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

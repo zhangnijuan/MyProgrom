@@ -1,0 +1,288 @@
+2015-01-24 12:39:42.4788|INFO|ProtalHostServer|info start...|
+2015-01-24 12:39:42.5848|ERROR|ProtalHostServer|error start...|
+2015-01-24 12:39:47.7001|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 12:39:47.7001|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 12:39:47.7001|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 12:39:48.1991|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 12:39:48.1991|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 12:39:48.1991|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 12:40:49.4286|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 12:40:49.4286|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 12:40:49.4576|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 12:40:49.5766|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157316066891540)
+LIMIT 1 OFFSET 0|
+2015-01-24 12:40:49.6006|DEBUG|OrmLiteWriteExtensions|UPDATE "gl_appdata" SET "appkey" = 'b6d102577daa4197adf255f0a3fdc2c2',"secretkey" = '504947ef790246b9bbad49d97c48bbf1',"a" = 76,"provide" = 'User',"uid" = 157316066891540 WHERE "id" = 110|
+2015-01-24 12:40:49.6166|DEBUG|OrmLiteWriteExtensions|INSERT INTO "udoc_loginlog" ("id","a","loginid","c","loginname","createdate","clientip","client") VALUES (157792141148417,76,157316066891540,'S001','last48','2015-01-24 12:40:49.605','192.168.50.104','Web')|
+2015-01-24 12:40:52.7438|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"to_a" ,"from_a" ,"subtype" ,"subsctheme" ,"subscriber" ,"subscriber_c" ,"subscriber_n" ,"delivery_address" ,"category_n" ,"minqty" ,"maxqty" ,"lasttime"  
+FROM "udoc_subscribe_filter"
+WHERE ("subscriber" = 157316066891540)|
+2015-01-24 12:40:52.7498|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"smid" ,"subsctheme"  
+FROM "udoc_subscribe_filterdetail"
+WHERE ("smid" = 179)|
+2015-01-24 12:41:48.2300|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"snumbertype" ,"snumber"  FROM "udoc_snum" WHERE "id" = 222|
+2015-01-24 12:41:48.2300|DEBUG|OrmLiteWriteExtensions|UPDATE "udoc_snum" SET "a" = 76,"snumbertype" = '',"snumber" = 58 WHERE "id" = 222|
+2015-01-24 12:42:12.4523|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"standard_c" ,"standard_n" ,"c" ,"n" ,"category_1" ,"category_1_c" ,"category_1_n" ,"category_2" ,"category_2_c" ,"category_2_n" ,"category_3" ,"category_3_c" ,"category_3_n" ,"mm" ,"prc" ,"u" ,"u_c" ,"u_n" ,"pricedes" ,"itemrid" ,"description" ,"contacts" ,"contactstel" ,"payment" ,"district" ,"city" ,"province" ,"address" ,"addressid" ,"biztype" ,"state" ,"state_enum" ,"createdate" ,"modifydate" ,"publishdate" ,"iscertification"  
+FROM "udoc_enterprise_item"
+WHERE (("c" = '1') AND ("a" = 76))
+LIMIT 1 OFFSET 0|
+2015-01-24 13:37:30.0131|INFO|ProtalHostServer|info start...|
+2015-01-24 13:37:30.0201|ERROR|ProtalHostServer|error start...|
+2015-01-24 13:37:32.8253|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 13:37:32.8403|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 13:37:32.8533|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 13:37:32.9163|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157316066891540)
+LIMIT 1 OFFSET 0|
+2015-01-24 13:37:32.9163|DEBUG|OrmLiteWriteExtensions|UPDATE "gl_appdata" SET "appkey" = 'c98ec9cc74474d1f973669584ee21764',"secretkey" = '721b8a333a7243cc8067fa942b29c405',"a" = 76,"provide" = 'User',"uid" = 157316066891540 WHERE "id" = 110|
+2015-01-24 13:37:32.9423|DEBUG|OrmLiteWriteExtensions|INSERT INTO "udoc_loginlog" ("id","a","loginid","c","loginname","createdate","clientip","client") VALUES (157792576774401,76,157316066891540,'S001','last48','2015-01-24 13:37:32.932','192.168.50.104','Web')|
+2015-01-24 13:37:33.6393|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"to_a" ,"from_a" ,"subtype" ,"subsctheme" ,"subscriber" ,"subscriber_c" ,"subscriber_n" ,"delivery_address" ,"category_n" ,"minqty" ,"maxqty" ,"lasttime"  
+FROM "udoc_subscribe_filter"
+WHERE ("subscriber" = 157316066891540)|
+2015-01-24 13:37:33.6393|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"smid" ,"subsctheme"  
+FROM "udoc_subscribe_filterdetail"
+WHERE ("smid" = 179)|
+2015-01-24 13:48:15.6150|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157614869735169)
+LIMIT 1 OFFSET 0|
+2015-01-24 13:48:15.6150|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157694613668975)
+LIMIT 1 OFFSET 0|
+2015-01-24 13:48:15.6150|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157694635099649)
+LIMIT 1 OFFSET 0|
+2015-01-24 13:48:15.6240|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157694664941351)
+LIMIT 1 OFFSET 0|
+2015-01-24 13:48:15.6240|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157705720767105)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:05.8459|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"inquiryid" ,"a" ,"snum" ,"inquirycode" ,"subject" ,"publisherdt" ,"finaldatetime" ,"purchaser" ,"linkman" ,"mobile" ,"fixedline" ,"fax" ,"emialinfo" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"address" ,"mm" ,"quoteexplain" ,"inquirytype" ,"anonymouscode" ,"sfinaldatetime" ,"totalamt" ,"scompanyname" ,"slinkman" ,"sfixedline" ,"smobile" ,"sfax" ,"saddress" ,"state" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate" ,"roleid" ,"staffrole_enum" ,"sendaddressid"  
+FROM "sal_quotation"
+WHERE ((("a" = 76) AND ("inquirycode" = '201501081158360067')) AND ("state" = 1))
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:05.8679|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"subject" ,"finaldatetime" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"addressid" ,"address" ,"mm" ,"linkman" ,"mobile" ,"emailinfo" ,"fixedline" ,"fax" ,"anonymouscode" ,"state" ,"state_enum" ,"inquirytype" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"roleid" ,"role_enum" ,"createtime" ,"quotations"  
+FROM "pur_inquiry"
+WHERE ("id" = 157614869735169)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:05.8829|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"i" ,"i_c" ,"i_n" ,"u" ,"u_c" ,"u_n" ,"category" ,"category_c" ,"category_n" ,"categoryfirstid" ,"categoryfirstcode" ,"categoryfirstname" ,"categorysecondid" ,"categorysecondcode" ,"categorysecondname" ,"categorythirdid" ,"categorythirdcode" ,"categorythirdname" ,"qty" ,"propertyname" ,"deliverydate" ,"mm" ,"standarditemcode" ,"standarditemname" ,"selectresults" ,"selectmm" ,"remark"  
+FROM "pur_inquirydetail"
+WHERE ("mid" = 157614869735169)|
+2015-01-24 14:03:05.9200|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE (("mid" = 157614869751683) AND ("a" = 89))|
+2015-01-24 14:03:05.9230|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE (("mid" = 157614869751683) AND ("a" = 89))|
+2015-01-24 14:03:05.9230|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE (("mid" = 157614869741186) AND ("a" = 89))|
+2015-01-24 14:03:05.9230|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE (("mid" = 157614869735169) AND ("a" = 89))|
+2015-01-24 14:03:05.9230|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"n" ,"tel" ,"fax" ,"url" ,"conper" ,"contel" ,"sid" ,"scale" ,"area" ,"approved" ,"createdate" ,"favorites" ,"releases" ,"inquirynumber" ,"logo_rid"  
+FROM "udoc_comp"
+WHERE ("a" = 89)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:06.1010|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"inquiryid" ,"a" ,"snum" ,"inquirycode" ,"subject" ,"publisherdt" ,"finaldatetime" ,"purchaser" ,"linkman" ,"mobile" ,"fixedline" ,"fax" ,"emialinfo" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"address" ,"mm" ,"quoteexplain" ,"inquirytype" ,"anonymouscode" ,"sfinaldatetime" ,"totalamt" ,"scompanyname" ,"slinkman" ,"sfixedline" ,"smobile" ,"sfax" ,"saddress" ,"state" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate" ,"roleid" ,"staffrole_enum" ,"sendaddressid"  
+FROM "sal_quotation"
+WHERE (("a" = 76) AND ("inquirycode" = '201501081158360067'))
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:06.1260|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"snumbertype" ,"snumber"  FROM "udoc_snum" WHERE "id" = 54|
+2015-01-24 14:03:06.1260|DEBUG|OrmLiteWriteExtensions|UPDATE "udoc_snum" SET "a" = 76,"snumbertype" = 'BJFB',"snumber" = 20 WHERE "id" = 54|
+2015-01-24 14:03:06.1260|DEBUG|OrmLiteWriteExtensions|INSERT INTO "sal_quotation" ("id","inquiryid","a","snum","inquirycode","subject","publisherdt","finaldatetime","purchaser","linkman","mobile","fixedline","fax","emialinfo","paytype","invoicetype","freighttypecode","address","mm","quoteexplain","inquirytype","anonymouscode","sfinaldatetime","totalamt","scompanyname","slinkman","sfixedline","smobile","sfax","saddress","state","eid","eid_syscode","eid_usrname","createdate","roleid","staffrole_enum","sendaddressid") VALUES (157792773020418,157614869735169,76,'201501240020','201501081158360067','第四次询价','2015-01-24 14:03:06.111','2015-01-24 23:59:59.000','ss123432','管理员','13433232333','17888814110','324456990','ss11@qq.com','RMB','1','1','北京海淀区海淀区ww','',NULL,2,0,'0001-01-01 00:00:00.000',0,'恩维test480100 &nbsp; aaa',NULL,NULL,'18272990048',NULL,NULL,0,157316066891540,'S001','管理员','2015-01-24 14:03:06.111',0,'所有权限',0)|
+2015-01-24 14:03:06.1470|DEBUG|OrmLiteWriteExtensions|INSERT INTO "sal_quotationdetail" ("id","a","mid","standarditemcode","standarditemname","i","i_c","i_n","category_c","category_n","u","u_c","u_n","qty","prc","amt","propertyname","deliverydate","inquirydid","mm","remark","smm","sremark") VALUES (157792773024259,76,157792773020418,'A001','轴承T01',157427389720959,'item02','产品2',NULL,NULL,-1,'个','个',3,0,0,'','2015-01-31 00:00:00.000',157614869751683,'3个','1204手动dd',NULL,NULL)|
+2015-01-24 14:03:06.1470|DEBUG|OrmLiteWriteExtensions|INSERT INTO "sal_quotationdetail" ("id","a","mid","standarditemcode","standarditemname","i","i_c","i_n","category_c","category_n","u","u_c","u_n","qty","prc","amt","propertyname","deliverydate","inquirydid","mm","remark","smm","sremark") VALUES (157792773026308,76,157792773020418,'A002','轴承T02',157427389730959,'item01','产品1',NULL,NULL,-1,'个','个',2,0,0,'','2015-01-24 00:00:00.000',157614869741186,'2个','1204手动dd',NULL,NULL)|
+2015-01-24 14:03:06.8900|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"inquiryid" ,"a" ,"snum" ,"inquirycode" ,"subject" ,"publisherdt" ,"finaldatetime" ,"purchaser" ,"linkman" ,"mobile" ,"fixedline" ,"fax" ,"emialinfo" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"address" ,"mm" ,"quoteexplain" ,"inquirytype" ,"anonymouscode" ,"sfinaldatetime" ,"totalamt" ,"scompanyname" ,"slinkman" ,"sfixedline" ,"smobile" ,"sfax" ,"saddress" ,"state" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate" ,"roleid" ,"staffrole_enum" ,"sendaddressid"  
+FROM "sal_quotation"
+WHERE ("id" = 157792773020418)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:06.8900|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"standarditemcode" ,"standarditemname" ,"i" ,"i_c" ,"i_n" ,"category_c" ,"category_n" ,"u" ,"u_c" ,"u_n" ,"qty" ,"prc" ,"amt" ,"propertyname" ,"deliverydate" ,"inquirydid" ,"mm" ,"remark" ,"smm" ,"sremark"  
+FROM "sal_quotationdetail"
+WHERE ("mid" = 157792773020418)|
+2015-01-24 14:03:06.9190|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"standard_c" ,"standard_n" ,"c" ,"n" ,"category_1" ,"category_1_c" ,"category_1_n" ,"category_2" ,"category_2_c" ,"category_2_n" ,"category_3" ,"category_3_c" ,"category_3_n" ,"mm" ,"prc" ,"u" ,"u_c" ,"u_n" ,"pricedes" ,"itemrid" ,"description" ,"contacts" ,"contactstel" ,"payment" ,"district" ,"city" ,"province" ,"address" ,"addressid" ,"biztype" ,"state" ,"state_enum" ,"createdate" ,"modifydate" ,"publishdate" ,"iscertification"  
+FROM "udoc_enterprise_item"
+WHERE ((("a" = 76) AND ("biztype" = 2)) AND ("state" = 1))|
+2015-01-24 14:03:06.9200|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157614869741186)|
+2015-01-24 14:03:06.9200|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157614869741186)|
+2015-01-24 14:03:06.9360|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157614869751683)|
+2015-01-24 14:03:06.9360|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157792773020418)|
+2015-01-24 14:03:06.9360|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157614869735169)|
+2015-01-24 14:03:06.9360|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"subject" ,"finaldatetime" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"addressid" ,"address" ,"mm" ,"linkman" ,"mobile" ,"emailinfo" ,"fixedline" ,"fax" ,"anonymouscode" ,"state" ,"state_enum" ,"inquirytype" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"roleid" ,"role_enum" ,"createtime" ,"quotations"  
+FROM "pur_inquiry"
+WHERE ("id" = 157614869735169)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:07.0800|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"compid" ,"compname" ,"province" ,"city" ,"district" ,"address" ,"zipcode" ,"isdef" ,"fulladdress"  
+FROM "udoc_enterprise_address"
+WHERE ("a" = 76)|
+2015-01-24 14:03:09.7802|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157614869735169)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:09.7802|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157694613668975)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:09.7802|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157694635099649)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:09.7802|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157694664941351)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:09.7802|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"from_a" ,"subtype" ,"from_id" ,"substate" ,"to_a" ,"subscribercode" ,"subdatetime"  
+FROM "udoc_subscribe_receive"
+WHERE ("from_id" = 157705720767105)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:13.6044|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"inquiryid" ,"a" ,"snum" ,"inquirycode" ,"subject" ,"publisherdt" ,"finaldatetime" ,"purchaser" ,"linkman" ,"mobile" ,"fixedline" ,"fax" ,"emialinfo" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"address" ,"mm" ,"quoteexplain" ,"inquirytype" ,"anonymouscode" ,"sfinaldatetime" ,"totalamt" ,"scompanyname" ,"slinkman" ,"sfixedline" ,"smobile" ,"sfax" ,"saddress" ,"state" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate" ,"roleid" ,"staffrole_enum" ,"sendaddressid"  
+FROM "sal_quotation"
+WHERE ((("a" = 76) AND ("inquirycode" = '201501150004')) AND ("state" = 1))
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:13.6144|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"subject" ,"finaldatetime" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"addressid" ,"address" ,"mm" ,"linkman" ,"mobile" ,"emailinfo" ,"fixedline" ,"fax" ,"anonymouscode" ,"state" ,"state_enum" ,"inquirytype" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"roleid" ,"role_enum" ,"createtime" ,"quotations"  
+FROM "pur_inquiry"
+WHERE ("id" = 157694635099649)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:13.6144|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"i" ,"i_c" ,"i_n" ,"u" ,"u_c" ,"u_n" ,"category" ,"category_c" ,"category_n" ,"categoryfirstid" ,"categoryfirstcode" ,"categoryfirstname" ,"categorysecondid" ,"categorysecondcode" ,"categorysecondname" ,"categorythirdid" ,"categorythirdcode" ,"categorythirdname" ,"qty" ,"propertyname" ,"deliverydate" ,"mm" ,"standarditemcode" ,"standarditemname" ,"selectresults" ,"selectmm" ,"remark"  
+FROM "pur_inquirydetail"
+WHERE ("mid" = 157694635099649)|
+2015-01-24 14:03:13.6144|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE (("mid" = 157694635104514) AND ("a" = 148))|
+2015-01-24 14:03:13.6144|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE (("mid" = 157694635099649) AND ("a" = 148))|
+2015-01-24 14:03:13.6144|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"n" ,"tel" ,"fax" ,"url" ,"conper" ,"contel" ,"sid" ,"scale" ,"area" ,"approved" ,"createdate" ,"favorites" ,"releases" ,"inquirynumber" ,"logo_rid"  
+FROM "udoc_comp"
+WHERE ("a" = 148)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:13.6424|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"comp" ,"comp_c" ,"comp_n" ,"state" ,"state_enum"  FROM "udoc_customer" WHERE "id" = 157792773985413|
+2015-01-24 14:03:13.6444|DEBUG|OrmLiteWriteExtensions|INSERT INTO "udoc_customer" ("id","a","comp","comp_c","comp_n","state","state_enum") VALUES (157792773985413,76,157661104228877,'10000148','北京京华科技有限公司',1,NULL)|
+2015-01-24 14:03:13.6444|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"inquiryid" ,"a" ,"snum" ,"inquirycode" ,"subject" ,"publisherdt" ,"finaldatetime" ,"purchaser" ,"linkman" ,"mobile" ,"fixedline" ,"fax" ,"emialinfo" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"address" ,"mm" ,"quoteexplain" ,"inquirytype" ,"anonymouscode" ,"sfinaldatetime" ,"totalamt" ,"scompanyname" ,"slinkman" ,"sfixedline" ,"smobile" ,"sfax" ,"saddress" ,"state" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate" ,"roleid" ,"staffrole_enum" ,"sendaddressid"  
+FROM "sal_quotation"
+WHERE (("a" = 76) AND ("inquirycode" = '201501150004'))
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:13.6444|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"snumbertype" ,"snumber"  FROM "udoc_snum" WHERE "id" = 54|
+2015-01-24 14:03:13.6444|DEBUG|OrmLiteWriteExtensions|UPDATE "udoc_snum" SET "a" = 76,"snumbertype" = 'BJFB',"snumber" = 21 WHERE "id" = 54|
+2015-01-24 14:03:13.6444|DEBUG|OrmLiteWriteExtensions|INSERT INTO "sal_quotation" ("id","inquiryid","a","snum","inquirycode","subject","publisherdt","finaldatetime","purchaser","linkman","mobile","fixedline","fax","emialinfo","paytype","invoicetype","freighttypecode","address","mm","quoteexplain","inquirytype","anonymouscode","sfinaldatetime","totalamt","scompanyname","slinkman","sfixedline","smobile","sfax","saddress","state","eid","eid_syscode","eid_usrname","createdate","roleid","staffrole_enum","sendaddressid") VALUES (157792773986182,157694635099649,76,'201501240021','201501150004','打三次','2015-01-24 14:03:13.648','2015-01-24 23:59:59.000','北京京华科技有限公司','管理员','18510971007','010','发顺丰','xiemao904@163.com','RMB','1','1','天津河东区test','',NULL,2,0,'0001-01-01 00:00:00.000',0,'恩维test480100 &nbsp; aaa',NULL,NULL,'18272990048',NULL,NULL,0,157316066891540,'S001','管理员','2015-01-24 14:03:13.648',0,'所有权限',0)|
+2015-01-24 14:03:13.6444|DEBUG|OrmLiteWriteExtensions|INSERT INTO "sal_quotationdetail" ("id","a","mid","standarditemcode","standarditemname","i","i_c","i_n","category_c","category_n","u","u_c","u_n","qty","prc","amt","propertyname","deliverydate","inquirydid","mm","remark","smm","sremark") VALUES (157792773986695,76,157792773986182,'Y002','原料Y02',157663123190407,'Y002001','原料Y02001',NULL,NULL,-1,'个','个',3,0,0,'外径:70mmmm,内径:58mmmm,体积:100mmmm','2015-01-31 00:00:00.000',157694635104514,'3','氧化铝',NULL,NULL)|
+2015-01-24 14:03:14.2054|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"inquiryid" ,"a" ,"snum" ,"inquirycode" ,"subject" ,"publisherdt" ,"finaldatetime" ,"purchaser" ,"linkman" ,"mobile" ,"fixedline" ,"fax" ,"emialinfo" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"address" ,"mm" ,"quoteexplain" ,"inquirytype" ,"anonymouscode" ,"sfinaldatetime" ,"totalamt" ,"scompanyname" ,"slinkman" ,"sfixedline" ,"smobile" ,"sfax" ,"saddress" ,"state" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate" ,"roleid" ,"staffrole_enum" ,"sendaddressid"  
+FROM "sal_quotation"
+WHERE ("id" = 157792773986182)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:14.2054|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"standarditemcode" ,"standarditemname" ,"i" ,"i_c" ,"i_n" ,"category_c" ,"category_n" ,"u" ,"u_c" ,"u_n" ,"qty" ,"prc" ,"amt" ,"propertyname" ,"deliverydate" ,"inquirydid" ,"mm" ,"remark" ,"smm" ,"sremark"  
+FROM "sal_quotationdetail"
+WHERE ("mid" = 157792773986182)|
+2015-01-24 14:03:14.2054|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"standard_c" ,"standard_n" ,"c" ,"n" ,"category_1" ,"category_1_c" ,"category_1_n" ,"category_2" ,"category_2_c" ,"category_2_n" ,"category_3" ,"category_3_c" ,"category_3_n" ,"mm" ,"prc" ,"u" ,"u_c" ,"u_n" ,"pricedes" ,"itemrid" ,"description" ,"contacts" ,"contactstel" ,"payment" ,"district" ,"city" ,"province" ,"address" ,"addressid" ,"biztype" ,"state" ,"state_enum" ,"createdate" ,"modifydate" ,"publishdate" ,"iscertification"  
+FROM "udoc_enterprise_item"
+WHERE ((("a" = 76) AND ("biztype" = 2)) AND ("state" = 1))|
+2015-01-24 14:03:14.2214|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157694635104514)|
+2015-01-24 14:03:14.2214|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157792773986182)|
+2015-01-24 14:03:14.2214|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157694635099649)|
+2015-01-24 14:03:14.2214|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"c" ,"subject" ,"finaldatetime" ,"paytype" ,"invoicetype" ,"freighttypecode" ,"addressid" ,"address" ,"mm" ,"linkman" ,"mobile" ,"emailinfo" ,"fixedline" ,"fax" ,"anonymouscode" ,"state" ,"state_enum" ,"inquirytype" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"roleid" ,"role_enum" ,"createtime" ,"quotations"  
+FROM "pur_inquiry"
+WHERE ("id" = 157694635099649)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:03:14.2574|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"compid" ,"compname" ,"province" ,"city" ,"district" ,"address" ,"zipcode" ,"isdef" ,"fulladdress"  
+FROM "udoc_enterprise_address"
+WHERE ("a" = 76)|
+2015-01-24 14:06:38.0291|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 14:06:38.0391|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 14:06:38.0391|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"salt" ,"c" ,"n" ,"loginname" ,"loginpwd" ,"comptitle" ,"staffrole" ,"staffrole_enum" ,"tel" ,"email" ,"state" ,"state_enum" ,"staffpic" ,"staffpic_url" ,"remark" ,"eid" ,"eid_syscode" ,"eid_usrname" ,"createdate"  
+FROM "udoc_staff"
+WHERE ("loginname" = 'last48')|
+2015-01-24 14:06:38.0561|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"mid" ,"n" ,"c" ,"s" ,"file_length"  
+FROM "udoc_resources"
+WHERE ("mid" = 157316066891540)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:06:38.0561|DEBUG|OrmLiteWriteExtensions|UPDATE "gl_appdata" SET "appkey" = '9e1a6a2c17ba4ab5afe102c70cf29478',"secretkey" = 'd95b04e4b6644e75ae449eab250b7b4d',"a" = 76,"provide" = 'User',"uid" = 157316066891540 WHERE "id" = 110|
+2015-01-24 14:06:38.0561|DEBUG|OrmLiteWriteExtensions|INSERT INTO "udoc_loginlog" ("id","a","loginid","c","loginname","createdate","clientip","client") VALUES (157792800151048,76,157316066891540,'S001','last48','2015-01-24 14:06:38.061','192.168.50.104','Web')|
+2015-01-24 14:06:38.6101|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"to_a" ,"from_a" ,"subtype" ,"subsctheme" ,"subscriber" ,"subscriber_c" ,"subscriber_n" ,"delivery_address" ,"category_n" ,"minqty" ,"maxqty" ,"lasttime"  
+FROM "udoc_subscribe_filter"
+WHERE ("subscriber" = 157316066891540)|
+2015-01-24 14:06:38.6201|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"smid" ,"subsctheme"  
+FROM "udoc_subscribe_filterdetail"
+WHERE ("smid" = 179)|
+2015-01-24 14:06:45.9475|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"to_a" ,"from_a" ,"subtype" ,"subsctheme" ,"subscriber" ,"subscriber_c" ,"subscriber_n" ,"delivery_address" ,"category_n" ,"minqty" ,"maxqty" ,"lasttime"  
+FROM "udoc_subscribe_filter"
+WHERE ("subscriber" = 157316066891540)|
+2015-01-24 14:06:45.9475|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"smid" ,"subsctheme"  
+FROM "udoc_subscribe_filterdetail"
+WHERE ("smid" = 179)|
+2015-01-24 14:06:46.0485|DEBUG|OrmLiteWriteExtensions|UPDATE "udoc_subscribe_filter" SET LastTime='2015-01-24 14:06:46.047' WHERE ID=0|
+2015-01-24 14:06:50.1588|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"to_a" ,"from_a" ,"subtype" ,"subsctheme" ,"subscriber" ,"subscriber_c" ,"subscriber_n" ,"delivery_address" ,"category_n" ,"minqty" ,"maxqty" ,"lasttime"  
+FROM "udoc_subscribe_filter"
+WHERE ("subscriber" = 157316066891540)|
+2015-01-24 14:06:50.1978|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"smid" ,"subsctheme"  
+FROM "udoc_subscribe_filterdetail"
+WHERE (("subsctheme" = '直线轴承') AND "smid" In (179))|
+2015-01-24 14:06:50.1978|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"to_a" ,"from_a" ,"subtype" ,"subsctheme" ,"subscriber" ,"subscriber_c" ,"subscriber_n" ,"delivery_address" ,"category_n" ,"minqty" ,"maxqty" ,"lasttime"  
+FROM "udoc_subscribe_filter"
+WHERE ("id" = 179)
+LIMIT 1 OFFSET 0|
+2015-01-24 14:06:50.1978|DEBUG|OrmLiteWriteExtensions|UPDATE "udoc_subscribe_filter" SET LastTime='2015-01-24 14:06:50.201' WHERE ID=179|
+2015-01-24 14:06:51.6109|DEBUG|OrmLiteWriteExtensions|UPDATE "udoc_subscribe_filter" SET LastTime='2015-01-24 14:06:51.610' WHERE ID=0|
+2015-01-24 14:06:53.2330|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"to_a" ,"from_a" ,"subtype" ,"subsctheme" ,"subscriber" ,"subscriber_c" ,"subscriber_n" ,"delivery_address" ,"category_n" ,"minqty" ,"maxqty" ,"lasttime"  
+FROM "udoc_subscribe_filter"
+WHERE ("subscriber" = 157316066891540)|
+2015-01-24 14:06:53.2330|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"smid" ,"subsctheme"  
+FROM "udoc_subscribe_filterdetail"
+WHERE ("smid" = 179)|
+2015-01-24 14:06:53.3060|DEBUG|OrmLiteWriteExtensions|UPDATE "udoc_subscribe_filter" SET LastTime='2015-01-24 14:06:53.305' WHERE ID=0|
+2015-01-24 14:22:34.2168|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"snumbertype" ,"snumber"  FROM "udoc_snum" WHERE "id" = 222|
+2015-01-24 14:22:34.2168|DEBUG|OrmLiteWriteExtensions|UPDATE "udoc_snum" SET "a" = 76,"snumbertype" = '',"snumber" = 59 WHERE "id" = 222|
+2015-01-24 14:22:34.2168|DEBUG|OrmLiteReadExtensions|SELECT "id" ,"a" ,"standard_c" ,"standard_n" ,"c" ,"n" ,"category_1" ,"category_1_c" ,"category_1_n" ,"category_2" ,"category_2_c" ,"category_2_n" ,"category_3" ,"category_3_c" ,"category_3_n" ,"mm" ,"prc" ,"u" ,"u_c" ,"u_n" ,"pricedes" ,"itemrid" ,"description" ,"contacts" ,"contactstel" ,"payment" ,"district" ,"city" ,"province" ,"address" ,"addressid" ,"biztype" ,"state" ,"state_enum" ,"createdate" ,"modifydate" ,"publishdate" ,"iscertification"  
+FROM "udoc_enterprise_item"
+WHERE (("c" = '1') AND ("a" = 76))
+LIMIT 1 OFFSET 0|

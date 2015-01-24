@@ -1,0 +1,23 @@
+2014-12-27 14:04:22.5492|INFO|ProtalHostServer|info start...|
+2014-12-27 14:04:22.6932|ERROR|ProtalHostServer|error start...|
+2014-12-27 14:04:59.9823|INFO|ProtalHostServer|info start...|
+2014-12-27 14:04:59.9893|ERROR|ProtalHostServer|error start...|
+2014-12-27 14:05:27.9919|INFO|ProtalHostServer|info start...|
+2014-12-27 14:05:28.0019|ERROR|ProtalHostServer|error start...|
+2014-12-27 14:06:20.8209|INFO|ProtalHostServer|info start...|
+2014-12-27 14:06:20.8279|ERROR|ProtalHostServer|error start...|
+2014-12-27 14:07:34.5621|INFO|ProtalHostServer|info start...|
+2014-12-27 14:07:34.5691|ERROR|ProtalHostServer|error start...|
+2014-12-27 14:07:35.6402|INFO|GetPurorderByIDService|test|
+2014-12-27 14:07:35.6412|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.Exception: 错误
+   在 Ndtech.PortalService.Auth.GetPurorderByIDService.Get(GetPurorderByIDRequest request) 位置 e:\newsprogram\program\app\PortalService\Auth\GetPurorderByIDService.cs:行号 53
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2014-12-27 14:11:49.7497|INFO|ProtalHostServer|info start...|
+2014-12-27 14:11:49.7567|ERROR|ProtalHostServer|error start...|
+2014-12-27 14:11:50.7948|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.Exception: 错误
+   在 Ndtech.PortalService.Auth.GetPurorderByIDService.Get(GetPurorderByIDRequest request) 位置 e:\newsprogram\program\app\PortalService\Auth\GetPurorderByIDService.cs:行号 53
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2014-12-27 14:26:10.6020|INFO|ProtalHostServer|info start...|
+2014-12-27 14:26:10.6120|ERROR|ProtalHostServer|error start...|

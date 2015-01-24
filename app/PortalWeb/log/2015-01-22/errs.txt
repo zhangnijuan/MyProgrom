@@ -1,0 +1,376 @@
+2015-01-22 09:04:52.5687|ERROR|ProtalHostServer|error start...|
+2015-01-22 09:13:52.6856|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/search|
+2015-01-22 09:13:53.3186|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:13:58.5920|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:14:01.4941|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:14:03.2232|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:14:05.6754|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:14:07.9005|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:14:08.7165|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:14:10.0356|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:14:26.6016|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/state|
+2015-01-22 09:14:26.6826|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/inquiry/157528084471042|
+2015-01-22 09:14:26.8946|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/draft/new|
+2015-01-22 09:14:30.1808|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/state|
+2015-01-22 09:14:30.1968|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/inquiry/157572980574122|
+2015-01-22 09:14:30.2278|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/draft/new|
+2015-01-22 09:14:31.5398|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/state|
+2015-01-22 09:14:31.5468|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/inquiry/157572980574122|
+2015-01-22 09:14:31.6008|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/draft/new|
+2015-01-22 09:14:32.7009|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/state|
+2015-01-22 09:14:32.7189|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/inquiry/157671473406408|
+2015-01-22 09:14:32.7479|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/draft/new|
+2015-01-22 09:14:40.3013|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:14:51.8380|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/state|
+2015-01-22 09:14:51.8650|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/inquiry/157702148203211|
+2015-01-22 09:14:51.8890|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/draft/new|
+2015-01-22 09:14:54.7582|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/inquiry/157702148203211|
+2015-01-22 09:14:54.7752|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/state|
+2015-01-22 09:15:05.3548|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/category/search/-1|
+2015-01-22 09:15:06.8839|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/category/search/1000000000000200001|
+2015-01-22 09:15:07.8029|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/category/search/1000000000000200005|
+2015-01-22 09:15:14.2883|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/new|
+2015-01-22 09:15:14.8873|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/search|
+2015-01-22 09:15:14.9713|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:15:17.8855|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:15:19.1886|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:15:20.3556|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:15:21.1717|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:15:22.4517|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:15:23.5948|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:15:25.1159|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:15:28.6931|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:16:58.8793|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:19:12.2879|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/search|
+2015-01-22 09:19:12.3639|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:19:14.5400|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:19:16.8682|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:20:02.0277|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/search|
+2015-01-22 09:20:02.1127|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:20:04.6629|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:20:11.7423|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/subscribe/inquiry/search|
+2015-01-22 09:20:19.5347|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/state|
+2015-01-22 09:20:19.5647|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/inquiry/157505832194874|
+2015-01-22 09:20:19.6087|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/b82535c13d244bba9f818f94f2a86e43/87237d0f92aa4951b4ae7fd34b0bb54c/76/quotation/draft/new|
+2015-01-22 09:20:59.7780|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:21:09.2246|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:22:16.3754|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:22:20.1096|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/115/search/state/total|
+2015-01-22 09:22:20.1136|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/search|
+2015-01-22 09:22:20.1136|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/115/search/state/total|
+2015-01-22 09:22:23.7238|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/search|
+2015-01-22 09:22:23.7978|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:22:26.6620|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:22:27.2540|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:22:28.9341|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/delete/91|
+2015-01-22 09:22:34.5155|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/search|
+2015-01-22 09:22:34.5825|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:22:45.0851|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/category/search/-1|
+2015-01-22 09:22:46.3521|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/category/search/1000000000000200001|
+2015-01-22 09:22:47.3012|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/category/search/1000000000000200005|
+2015-01-22 09:22:50.4814|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/new|
+2015-01-22 09:22:51.0694|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/search|
+2015-01-22 09:22:51.1474|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:22:53.4205|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:22:54.3486|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:22:54.9796|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:22:55.6707|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:22:56.3797|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:23:03.3821|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:23:04.1332|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:23:04.6962|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:23:05.2432|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:23:05.8143|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d725f44df25749ffa947be35b653696f/bfb099a5b4a54f2ea97139d50967526d/subscribe/inquiry/search|
+2015-01-22 09:23:21.4121|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:23:27.3435|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:23:37.5761|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:23:43.1534|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:23:43.2354|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.ArgumentNullException: 值不能为空。
+参数名: InString
+   在 System.Convert.FromBase64String(String s)
+   在 ServiceStack.ServiceInterface.Auth.SaltedHash.VerifyHashString(String Data, String Hash, String Salt)
+   在 Ndtech.PortalService.Auth.NdtechOrmLiteAuthRepository.TryAuthenticate(String userName, String password, NdtechStaffInfo& userAuth) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\NdtechOrmLiteAuthRepository.cs:行号 75
+   在 Ndtech.PortalService.Auth.LoginValidator.Validate(NdtechAuthRequest instance) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\LoginService.cs:行号 60
+   在 Ndtech.PortalService.Auth.LoginService.Post(NdtechAuthRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\LoginService.cs:行号 119
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-22 09:23:44.4155|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:23:44.4715|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.ArgumentNullException: 值不能为空。
+参数名: InString
+   在 System.Convert.FromBase64String(String s)
+   在 ServiceStack.ServiceInterface.Auth.SaltedHash.VerifyHashString(String Data, String Hash, String Salt)
+   在 Ndtech.PortalService.Auth.NdtechOrmLiteAuthRepository.TryAuthenticate(String userName, String password, NdtechStaffInfo& userAuth) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\NdtechOrmLiteAuthRepository.cs:行号 75
+   在 Ndtech.PortalService.Auth.LoginValidator.Validate(NdtechAuthRequest instance) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\LoginService.cs:行号 60
+   在 Ndtech.PortalService.Auth.LoginService.Post(NdtechAuthRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\LoginService.cs:行号 119
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-22 09:23:49.9618|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:23:49.9678|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.ArgumentNullException: 值不能为空。
+参数名: InString
+   在 System.Convert.FromBase64String(String s)
+   在 ServiceStack.ServiceInterface.Auth.SaltedHash.VerifyHashString(String Data, String Hash, String Salt)
+   在 Ndtech.PortalService.Auth.NdtechOrmLiteAuthRepository.TryAuthenticate(String userName, String password, NdtechStaffInfo& userAuth) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\NdtechOrmLiteAuthRepository.cs:行号 75
+   在 Ndtech.PortalService.Auth.LoginValidator.Validate(NdtechAuthRequest instance) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\LoginService.cs:行号 60
+   在 Ndtech.PortalService.Auth.LoginService.Post(NdtechAuthRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\LoginService.cs:行号 119
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-22 09:23:55.1651|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:23:55.1781|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|System.ArgumentNullException: 值不能为空。
+参数名: InString
+   在 System.Convert.FromBase64String(String s)
+   在 ServiceStack.ServiceInterface.Auth.SaltedHash.VerifyHashString(String Data, String Hash, String Salt)
+   在 Ndtech.PortalService.Auth.NdtechOrmLiteAuthRepository.TryAuthenticate(String userName, String password, NdtechStaffInfo& userAuth) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\NdtechOrmLiteAuthRepository.cs:行号 75
+   在 Ndtech.PortalService.Auth.LoginValidator.Validate(NdtechAuthRequest instance) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\LoginService.cs:行号 60
+   在 Ndtech.PortalService.Auth.LoginService.Post(NdtechAuthRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\login\LoginService.cs:行号 119
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-22 09:24:09.8739|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:24:20.1445|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:24:20.8385|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/103/search/state/total|
+2015-01-22 09:24:20.8405|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/subscribe/search|
+2015-01-22 09:24:20.8405|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/103/search/state/total|
+2015-01-22 09:24:24.3187|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/subscribe/search|
+2015-01-22 09:24:24.3977|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/subscribe/inquiry/search|
+2015-01-22 09:24:32.4192|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/category/search/-1|
+2015-01-22 09:24:33.3633|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/category/search/1000000000000200001|
+2015-01-22 09:24:34.2453|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/category/search/1000000000000200005|
+2015-01-22 09:24:38.0175|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/subscribe/new|
+2015-01-22 09:24:38.3175|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/subscribe/search|
+2015-01-22 09:24:38.3895|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/subscribe/inquiry/search|
+2015-01-22 09:24:42.0238|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/subscribe/inquiry/search|
+2015-01-22 09:24:44.6929|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/f426215931db4e8593225e051aa87579/a910e7fb260d429a8e7e9b9bc573517d/subscribe/inquiry/search|
+2015-01-22 09:25:01.5589|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:25:01.9019|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/search/state/total|
+2015-01-22 09:25:01.9019|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/search/state/total|
+2015-01-22 09:25:01.9019|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/search|
+2015-01-22 09:25:04.4350|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/search|
+2015-01-22 09:25:04.5020|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:09.1013|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:10.3734|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:11.2144|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:12.6295|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/search|
+2015-01-22 09:25:12.6925|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:15.5087|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:17.7168|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:18.5248|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:19.0779|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:19.8529|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:20.7090|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:21.6680|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:22.3821|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:25:23.1801|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:27:33.1905|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/search/state/total|
+2015-01-22 09:27:35.7627|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/state/group|
+2015-01-22 09:27:35.7637|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:29:20.9307|ERROR|ProtalHostServer|error start...|
+2015-01-22 09:29:22.1788|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:29:29.8862|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:29:57.9398|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:30:02.5051|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/search|
+2015-01-22 09:30:02.5051|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/search/state/total|
+2015-01-22 09:30:06.9633|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Sell/purorder/state/group|
+2015-01-22 09:30:06.9633|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Sell/purorder/search|
+2015-01-22 09:30:15.2878|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Sell/purorder/search|
+2015-01-22 09:30:15.3108|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+invalid input syntax for type timestamp: " 23:59:59"
+Severity: ERROR
+Code: 22007
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-22 09:30:26.1504|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Sell/purorder/search|
+2015-01-22 09:30:26.1504|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+invalid input syntax for type timestamp: " 23:59:59"
+Severity: ERROR
+Code: 22007
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-22 09:31:42.5028|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Sell/purorder/state/group|
+2015-01-22 09:31:42.5108|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Sell/purorder/search|
+2015-01-22 09:31:58.3717|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Sell/purorder/search|
+2015-01-22 09:31:58.3797|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+invalid input syntax for type timestamp: " 23:59:59"
+Severity: ERROR
+Code: 22007
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-22 09:36:28.2821|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Sell/purorder/search|
+2015-01-22 09:36:28.2971|ERROR|DtoUtils|ServiceBase<TRequest>::Service Exception|Npgsql.NpgsqlException:
+invalid input syntax for type timestamp: " 23:59:59"
+Severity: ERROR
+Code: 22007
+   在 Npgsql.NpgsqlState.<ProcessBackendResponses_Ver_3>d__a.MoveNext()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextResponseObject()
+   在 Npgsql.ForwardsOnlyDataReader.GetNextRowDescription()
+   在 Npgsql.ForwardsOnlyDataReader.NextResult()
+   在 Npgsql.ForwardsOnlyDataReader..ctor(IEnumerable`1 dataEnumeration, CommandBehavior behavior, NpgsqlCommand command, NotificationThreadBlock threadBlock, Boolean synchOnReadError)
+   在 Npgsql.NpgsqlCommand.GetReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior cb)
+   在 Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader()
+   在 ServiceStack.OrmLite.OrmLiteReadExtensions.Query[T](IDbCommand dbCmd, String sql, Object anonType)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.<>c__DisplayClass42`1.<Query>b__41(IDbCommand dbCmd)
+   在 ServiceStack.OrmLite.ReadConnectionExtensions.Exec[T](IDbConnection dbConn, Func`2 filter)
+   在 ServiceStack.OrmLite.OrmLiteReadConnectionExtensions.Query[T](IDbConnection dbConn, String sql)
+   在 Ndtech.PortalService.Auth.SearchOrderService.Post(SearchOrderRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\myPurchase\SearchOrderService.cs:行号 129
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)
+2015-01-22 09:36:46.0142|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Sell/purorder/search|
+2015-01-22 09:37:07.3884|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/search/state/total|
+2015-01-22 09:37:09.9195|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/state/group|
+2015-01-22 09:37:09.9315|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:37:17.8940|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:37:30.1577|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:37:52.7890|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:38:00.3934|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/state/group|
+2015-01-22 09:38:00.3934|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:38:05.6467|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/Purchase/purorder/search|
+2015-01-22 09:48:44.4733|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/search|
+2015-01-22 09:48:44.4733|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/search/state/total|
+2015-01-22 09:48:44.4733|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/115/search/state/total|
+2015-01-22 09:51:32.7929|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/search|
+2015-01-22 09:51:32.9029|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/08862b1f77d34cb0abf85d073f208ce0/705e292f3d7a44fd84dc0d8cb745ba74/subscribe/inquiry/search|
+2015-01-22 09:51:57.6423|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:51:58.0913|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/7a05dbab77bb4fe694394fd76aec180f/e9f705179af34706a2c86459f78b0c53/76/search/state/total|
+2015-01-22 09:51:58.0913|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/7a05dbab77bb4fe694394fd76aec180f/e9f705179af34706a2c86459f78b0c53/76/search/state/total|
+2015-01-22 09:51:58.0913|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/7a05dbab77bb4fe694394fd76aec180f/e9f705179af34706a2c86459f78b0c53/subscribe/search|
+2015-01-22 09:52:33.8324|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/7a05dbab77bb4fe694394fd76aec180f/e9f705179af34706a2c86459f78b0c53/subscribe/search|
+2015-01-22 09:52:33.9164|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/7a05dbab77bb4fe694394fd76aec180f/e9f705179af34706a2c86459f78b0c53/subscribe/inquiry/search|
+2015-01-22 09:52:48.8932|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:52:56.9287|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:53:09.0764|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:53:18.7689|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/login|
+2015-01-22 09:53:19.2390|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/99/search/state/total|
+2015-01-22 09:53:19.2950|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/99/search/state/total|
+2015-01-22 09:53:19.2950|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 09:58:43.1285|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/99/search/state/total|
+2015-01-22 09:58:43.1285|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/99/search/state/total|
+2015-01-22 09:58:43.1285|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:07:09.6485|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:07:15.4988|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/-1|
+2015-01-22 10:07:19.9981|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200001|
+2015-01-22 10:07:21.0131|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200005|
+2015-01-22 10:07:23.8603|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200003|
+2015-01-22 10:07:24.9083|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200011|
+2015-01-22 10:07:29.8686|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/new|
+2015-01-22 10:07:30.5007|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:07:30.5787|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:09:17.9598|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/-1|
+2015-01-22 10:09:19.2469|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200003|
+2015-01-22 10:09:20.1969|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200011|
+2015-01-22 10:09:24.0152|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200001|
+2015-01-22 10:09:25.2612|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200005|
+2015-01-22 10:09:37.3889|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/new|
+2015-01-22 10:09:37.9850|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:09:38.0630|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:09:55.9540|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/delete/184|
+2015-01-22 10:09:58.6301|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:09:58.7201|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:10:04.6975|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/delete/185|
+2015-01-22 10:10:07.3306|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:10:10.5988|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/-1|
+2015-01-22 10:10:12.3979|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200003|
+2015-01-22 10:10:13.3330|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200011|
+2015-01-22 10:10:15.5811|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200001|
+2015-01-22 10:10:16.5412|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200005|
+2015-01-22 10:10:31.5010|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/new|
+2015-01-22 10:10:32.0620|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:10:32.1541|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:17:44.3908|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/delete/186|
+2015-01-22 10:17:47.0509|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:17:50.7891|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/-1|
+2015-01-22 10:17:52.4372|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200003|
+2015-01-22 10:17:53.3253|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200011|
+2015-01-22 10:17:56.4445|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200001|
+2015-01-22 10:17:57.3795|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200005|
+2015-01-22 10:18:11.7733|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/new|
+2015-01-22 10:18:12.2624|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:18:12.2984|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:18:22.9920|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/delete/187|
+2015-01-22 10:18:25.5381|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:18:29.3633|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/-1|
+2015-01-22 10:18:30.5334|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200003|
+2015-01-22 10:18:31.3485|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200011|
+2015-01-22 10:18:32.9486|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200001|
+2015-01-22 10:18:34.1556|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200005|
+2015-01-22 10:18:50.6056|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/new|
+2015-01-22 10:18:51.1116|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:18:51.2066|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:20:22.9618|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:20:23.0038|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:20:34.6615|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:20:34.7035|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:20:49.6794|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:23:55.0030|ERROR|EndpointHandlerBase|Error occured while Processing Request: 正在中止线程。|System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Globalization.CompareInfo.IndexOfString(Void* pSortingTable, Int32 sortingLCID, String source, String value, Int32 startIndex, Int32 count, Int32 options)
+   在 System.Globalization.CompareInfo.IndexOf(String source, String value, Int32 startIndex, Int32 count, CompareOptions options)
+   在 System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   在 System.String.Contains(String value)
+   在 ServiceStack.WebHost.Endpoints.RestHandler.ProcessRequest(IHttpRequest httpReq, IHttpResponse httpRes, String operationName)
+2015-01-22 10:53:00.9608|ERROR|ProtalHostServer|error start...|
+2015-01-22 10:53:24.5022|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/-1|
+2015-01-22 10:53:25.6212|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200001|
+2015-01-22 10:53:26.2933|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/category/search/1000000000000200005|
+2015-01-22 10:53:34.2477|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/new|
+2015-01-22 10:53:34.8608|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:54:16.5132|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:54:28.5348|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/search|
+2015-01-22 10:55:00.2407|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:55:05.6240|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:55:06.6930|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 10:55:07.2161|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/d6ff0fabd142436dae894209615859ca/90bcf556e4ef45deaace5f4ba7885dbe/subscribe/inquiry/search|
+2015-01-22 11:10:59.7075|ERROR|ProtalHostServer|error start...|
+2015-01-22 11:21:22.0431|ERROR|ProtalHostServer|error start...|
+2015-01-22 11:57:25.9929|ERROR|ProtalHostServer|error start...|
+2015-01-22 13:24:36.4141|ERROR|ProtalHostServer|error start...|
+2015-01-22 13:25:58.2307|ERROR|ProtalHostServer|http://192.168.50.104:8012/api/web/company/10000166|
+2015-01-22 13:25:58.3758|ERROR|ProtalHostServer|System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Ndtech.PortalService.Auth.GetCompanyRecordByIdService.GetCompInfo(Int32 accountId, CompanyRecord companyRecord) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\corpManagement\GetCompanyRecordByIdService.cs:行号 147
+   在 Ndtech.PortalService.Auth.GetCompanyRecordByIdService.Get(GetCompanyRecordByIdRequest request) 位置 e:\zzzzzzzzzzz\program\app\PortalService\service\management\corpManagement\GetCompanyRecordByIdService.cs:行号 44
+   在 lambda_method(ExecutionScope , Object , Object )
+   在 ServiceStack.ServiceHost.ServiceRunner`1.Execute(IRequestContext requestContext, Object instance, TRequest request)|
+2015-01-22 13:26:51.5998|ERROR|ProtalHostServer|error start...|
+2015-01-22 16:08:45.9864|ERROR|ProtalHostServer|error start...|
+2015-01-22 16:09:36.4563|ERROR|ProtalHostServer|error start...|
+2015-01-22 16:16:09.9798|ERROR|ProtalHostServer|error start...|
